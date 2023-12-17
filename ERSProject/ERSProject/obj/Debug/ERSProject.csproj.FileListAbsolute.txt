@@ -1,0 +1,7 @@
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\bin\Debug\ERSProject.exe.config
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\bin\Debug\ERSProject.exe
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\bin\Debug\ERSProject.pdb
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\obj\Debug\ERSProject.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\obj\Debug\ERSProject.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\obj\Debug\ERSProject.exe
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\obj\Debug\ERSProject.pdb

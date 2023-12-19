@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\GeografskaPodrucja.cs" />
+    <Compile Include="Classes\NeispravniPodaci.cs" />
     <Compile Include="Classes\OstvarenaPotrosnja.cs" />
     <Compile Include="Classes\PrognoziranaPotrosnja.cs" />
     <Compile Include="Program.cs" />

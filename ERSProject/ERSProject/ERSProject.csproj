@@ -52,5 +52,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Source\ostv_2020_05_07.xml" />
+    <Content Include="Source\prog_2020_05_07.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

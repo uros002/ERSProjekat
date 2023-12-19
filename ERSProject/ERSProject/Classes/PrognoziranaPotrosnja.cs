@@ -21,5 +21,17 @@ namespace ERSProject.Classes
             this.Potrosnja = potrosnja;
             this.Podrucje = podrucje;
         }
+
+        public override string ToString()
+        {
+            return string.Format("{0,-6} {1,-15} {2,-15}",
+                Sat, Potrosnja, Podrucje);
+        }
+
+        public static string GetFormattedHeader()
+        {
+            return string.Format("{0,-6} {1,-15} {2,-15} ",
+                "SAT", "POTROSNJA", "PODRUCJE");
+        }
     }
 }

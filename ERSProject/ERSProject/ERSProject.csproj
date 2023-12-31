@@ -47,6 +47,7 @@
     <Compile Include="Classes\OstvarenaPotrosnja.cs" />
     <Compile Include="Classes\PrognoziranaPotrosnja.cs" />
     <Compile Include="FUNCTIONS\CheckingValidityOfFiles.cs" />
+    <Compile Include="SettingUpPaths.cs" />
     <Compile Include="XML FUNCTIONS\IReadWriteXML.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

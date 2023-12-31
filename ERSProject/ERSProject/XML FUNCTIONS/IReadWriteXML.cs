@@ -11,6 +11,6 @@ namespace ERSProject
 
         int ReadFromXML(string path);
 
-        void WriteToXML(int id,int load, string oblast);
+        void WriteToXML(string path,int id,int load, string oblast);
     }
 }

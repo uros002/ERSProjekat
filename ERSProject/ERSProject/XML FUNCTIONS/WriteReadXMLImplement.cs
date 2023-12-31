@@ -11,8 +11,9 @@ namespace ERSProject
 {
     class WriteReadXMLImplement : IReadWriteXML
     {
-        public void ReadFromXML(string document)
+        public int ReadFromXML(string document)
         {
+            int brojac = 0;
             XmlDocument xmlDoc = new XmlDocument();
             string path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
             xmlDoc.Load(path + document);
@@ -29,8 +30,11 @@ namespace ERSProject
                 for (int i = 0; i < sat.Count; i++)
                 {
                     int tmp = Convert.ToInt32(sat[i].InnerText);
+                    brojac++;
                     OstvarenaPotrosnja nova = new OstvarenaPotrosnja(Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
                     ostvarenaPotrosnjaLista.Add(nova);
+
+                    WriteToXML(Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
 
                 }
 
@@ -46,8 +50,11 @@ namespace ERSProject
                 for (int i = 0; i < sat.Count; i++)
                 {
                     int tmp = Convert.ToInt32(sat[i].InnerText);
+                    brojac++;
                     PrognoziranaPotrosnja nova = new PrognoziranaPotrosnja(Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
                     PrognoziranaPotrosnjaLista.Add(nova);
+
+                    WriteToXML(Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
 
                 }
 
@@ -58,11 +65,35 @@ namespace ERSProject
                     Console.WriteLine(it);
                 }
             }
+
+            Console.WriteLine(brojac.ToString());
+
+            return brojac;
         }
 
-        public void WriteToXML()
+        public void WriteToXML(int sat,int load,string oblast)
         {
-            throw new NotImplementedException();
+
+            XmlDocument xmldoc = new XmlDocument();
+            string path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\prog_potrosnja.xml";
+            xmldoc.Load(path);
+            XmlNode Stavka = xmldoc.CreateElement("Stavka" );
+
+            XmlNode Sat = xmldoc.CreateElement("Sat");
+            Sat.InnerText = sat.ToString();
+            Stavka.AppendChild(Sat);
+
+            XmlNode Load = xmldoc.CreateElement("Load");
+            Load.InnerText = load.ToString();
+            Stavka.AppendChild(Load);
+
+            XmlNode Oblast = xmldoc.CreateElement("Oblast");
+            Oblast.InnerText = oblast.ToString();
+            Stavka.AppendChild(Oblast);
+
+            xmldoc.DocumentElement.AppendChild(Stavka);
+
+            xmldoc.Save(path);
         }
     }
 }

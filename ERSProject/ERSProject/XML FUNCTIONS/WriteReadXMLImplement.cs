@@ -14,6 +14,8 @@ namespace ERSProject
 
         private SettingUpPaths setUpPaths = new SettingUpPaths();
         private SettingUpPaths setUpPathsWrite = new SettingUpPaths();
+        private string sourcePath = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
+        
 
         public int ReadFromXML(string document)
         {
@@ -23,7 +25,7 @@ namespace ERSProject
             {
                 XmlDocument xmlDoc = new XmlDocument();
                 //string path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
-                 xmlDoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + path);
+                 xmlDoc.Load(sourcePath + path);
                // xmlDoc.Load(path);
                 XmlNodeList sat = xmlDoc.GetElementsByTagName("SAT");
                 XmlNodeList potrosnja = xmlDoc.GetElementsByTagName("LOAD");
@@ -38,6 +40,7 @@ namespace ERSProject
                 if (path.Split('_')[0].Equals("ostv"))
                 {
                     //Console.WriteLine("AAAAAAAAAAAAAAAAAAAA");
+                    int flagNova = 0;
                     for (int i = 0; i < sat.Count; i++)
                     {
                         int tmp = Convert.ToInt32(sat[i].InnerText);
@@ -45,7 +48,19 @@ namespace ERSProject
                         OstvarenaPotrosnja nova = new OstvarenaPotrosnja(Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
                         ostvarenaPotrosnjaLista.Add(nova);
 
-                        WriteToXML(path, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
+                        foreach (OstvarenaPotrosnja it in ostvarenaPotrosnjaLista)
+                        {
+                            if(it == nova)
+                            {
+                                flagNova++;
+                            }
+                        }
+
+                        if (flagNova == 0)
+                        {
+
+                            WriteToXML(path, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
+                        }
 
                     }
 
@@ -87,18 +102,22 @@ namespace ERSProject
         {
             //List<string> Paths = setUpPaths.SettUpPathsWrite();
             string pathWrite = "";
+            //StringBuilder pathw;
+            //pathw.Append(path.Split('_')[0]);
+            //pathw.Append("_potrosnja.xml");
+            
            
                 XmlDocument xmldoc = new XmlDocument();
             if (path.Split('_')[0].Equals("ostv"))
             {
                 pathWrite = "ostv_potrosnja.xml";
-                Console.WriteLine("AAAAAAAAAAAAAAAAAAAA");
+               // Console.WriteLine("AAAAAAAAAAAAAAAAAAAA");
             }
             else if (path.Split('_')[0].Equals("prog")) {
                 pathWrite = "prog_potrosnja.xml";
             }
                 //string path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\prog_potrosnja.xml";
-                xmldoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
+                xmldoc.Load(sourcePath + pathWrite);
                 XmlNode Stavka = xmldoc.CreateElement("Stavka");
 
                 XmlNode Sat = xmldoc.CreateElement("Sat");
@@ -115,7 +134,7 @@ namespace ERSProject
 
                 xmldoc.DocumentElement.AppendChild(Stavka);
 
-                xmldoc.Save("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
+                xmldoc.Save(sourcePath + pathWrite);
             
         }
     }

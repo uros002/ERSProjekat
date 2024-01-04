@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ERSProject;
 
 namespace ERSProject
 {
     class Program
     {
+        public static readonly WriteReadXMLImplement wrxml = new WriteReadXMLImplement();
         static void Main(string[] args)
         {
             string input;
@@ -25,7 +27,7 @@ namespace ERSProject
                 switch (input)
                 {
                     case "1":
-
+                        wrxml.ReadFromXML("ostv_2020_05_07.xml");
                         break;
                     case "2":
                         break;

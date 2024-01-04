@@ -8,6 +8,30 @@ namespace ERSProject.Classes
 {
     class PrognoziranaPotrosnja
     {
+        
+        public int Sat { get; set; }
 
+        public int Potrosnja { get; set; }
+
+        public string Podrucje { get; set; }
+
+        public PrognoziranaPotrosnja(int sat, int potrosnja, string podrucje)
+        {
+            this.Sat = sat;
+            this.Potrosnja = potrosnja;
+            this.Podrucje = podrucje;
+        }
+
+        public override string ToString()
+        {
+            return string.Format("{0,-6} {1,-15} {2,-15}",
+                Sat, Potrosnja, Podrucje);
+        }
+
+        public static string GetFormattedHeader()
+        {
+            return string.Format("{0,-6} {1,-15} {2,-15} ",
+                "SAT", "POTROSNJA", "PODRUCJE");
+        }
     }
 }

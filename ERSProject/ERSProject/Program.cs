@@ -10,6 +10,7 @@ namespace ERSProject
     class Program
     {
         public static readonly WriteReadXMLImplement wrxml = new WriteReadXMLImplement();
+        
         static void Main(string[] args)
         {
             string input;
@@ -27,7 +28,7 @@ namespace ERSProject
                 switch (input)
                 {
                     case "1":
-                        wrxml.ReadFromXML("ostv_2020_05_07.xml");
+                        UvozPodataka();
                         break;
                     case "2":
                         break;
@@ -36,6 +37,14 @@ namespace ERSProject
                 }
 
             } while (!input.ToLower().Equals("x"));
+
+
+            void UvozPodataka()
+            {
+                
+                    wrxml.ReadFromXML();
+                  
+            }
         }
     }
 }

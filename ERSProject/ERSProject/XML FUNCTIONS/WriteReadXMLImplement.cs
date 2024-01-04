@@ -13,90 +13,135 @@ namespace ERSProject
     {
 
         private SettingUpPaths setUpPaths = new SettingUpPaths();
-        private SettingUpPaths setUpPathsWrite = new SettingUpPaths();
+        //private SettingUpPaths setUpPathsWrite = new SettingUpPaths();
         private string sourcePath = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
-        
+        private List<OstvarenaPotrosnja> ostvarenaPotrosnjaLista = new List<OstvarenaPotrosnja>();
+        private List<PrognoziranaPotrosnja> PrognoziranaPotrosnjaLista = new List<PrognoziranaPotrosnja>();
+        private ProveraBazePodataka provera = new ProveraBazePodataka();
 
-        public int ReadFromXML(string document)
+
+        public int ReadFromXML()
         {
+            
             List<string>Paths  = setUpPaths.SettUpPathsRead();
             int brojac = 0;
-            foreach (string path in Paths)
+            int flagBaza = 0;
+            if (provera.ProveraBaza("ostv_potrosnja.xml") == 1 || provera.ProveraBaza("prog_potrosnja.xml") == 1)
             {
-                XmlDocument xmlDoc = new XmlDocument();
-                //string path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
-                 xmlDoc.Load(sourcePath + path);
-               // xmlDoc.Load(path);
-                XmlNodeList sat = xmlDoc.GetElementsByTagName("SAT");
-                XmlNodeList potrosnja = xmlDoc.GetElementsByTagName("LOAD");
-                XmlNodeList oblast = xmlDoc.GetElementsByTagName("OBLAST");
-               
-               
+                flagBaza++;
+            }
+            
+            //Console.WriteLine(flagBaza.ToString());
+            if (flagBaza != 0)
+            {
+                Console.WriteLine("Vec su uvezeni podaci u baze");
+            }
+            else
+            {
 
-                List<OstvarenaPotrosnja> ostvarenaPotrosnjaLista = new List<OstvarenaPotrosnja>();
-                List<PrognoziranaPotrosnja> PrognoziranaPotrosnjaLista = new List<PrognoziranaPotrosnja>();
-
-                //Console.WriteLine(document.Split('_')[0]);
-                if (path.Split('_')[0].Equals("ostv"))
+                foreach (string path in Paths)
                 {
-                    //Console.WriteLine("AAAAAAAAAAAAAAAAAAAA");
-                    int flagNova = 0;
-                    for (int i = 0; i < sat.Count; i++)
+                    XmlDocument xmlDoc = new XmlDocument();
+                    //string path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
+                    xmlDoc.Load(sourcePath + path);
+                    // xmlDoc.Load(path);
+
+                    XmlNodeList sat = xmlDoc.GetElementsByTagName("SAT");
+                    XmlNodeList potrosnja = xmlDoc.GetElementsByTagName("LOAD");
+                    XmlNodeList oblast = xmlDoc.GetElementsByTagName("OBLAST");
+
+
+
+
+
+                    //Console.WriteLine(document.Split('_')[0]);
+                    //string pathSplit = path.Split('_')[0];
+                    if (path.Split('_')[0].Equals("ostv"))
                     {
-                        int tmp = Convert.ToInt32(sat[i].InnerText);
-                        brojac++;
-                        OstvarenaPotrosnja nova = new OstvarenaPotrosnja(Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
-                        ostvarenaPotrosnjaLista.Add(nova);
+                        //Console.WriteLine("AAAAAAAAAAAAAAAAAAAA");
+
+                        for (int i = 0; i < sat.Count; i++)
+                        {
+                            int flagNova = 0;
+                            int tmp = Convert.ToInt32(sat[i].InnerText);
+                            brojac++;
+                            OstvarenaPotrosnja nova = new OstvarenaPotrosnja(Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
+
+                            if (ostvarenaPotrosnjaLista.Count() == 0)
+                            {
+                                ostvarenaPotrosnjaLista.Add(nova);
+                            }
+
+                            foreach (OstvarenaPotrosnja it in ostvarenaPotrosnjaLista)
+                            {
+                                if (it.Equals(nova))
+                                {
+                                    flagNova++;
+                                }
+                            }
+
+
+                            if (flagNova == 0)
+                            {
+                                ostvarenaPotrosnjaLista.Add(nova);
+                                WriteToXML(path, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
+                            }
+
+                        }
+
+                        Console.WriteLine(OstvarenaPotrosnja.GetFormattedHeader());
 
                         foreach (OstvarenaPotrosnja it in ostvarenaPotrosnjaLista)
                         {
-                            if(it == nova)
-                            {
-                                flagNova++;
-                            }
+                            Console.WriteLine(it);
                         }
+                    }
+                    else if (path.Split('_')[0].Equals("prog"))
+                    {
 
-                        if (flagNova == 0)
+                        for (int i = 0; i < sat.Count; i++)
                         {
+                            int novaFlag = 0;
+                            int tmp = Convert.ToInt32(sat[i].InnerText);
+                            brojac++;
+                            PrognoziranaPotrosnja nova = new PrognoziranaPotrosnja(Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
 
-                            WriteToXML(path, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
+                            if (PrognoziranaPotrosnjaLista.Count() == 0)
+                            {
+                                PrognoziranaPotrosnjaLista.Add(nova);
+                            }
+
+                            foreach (PrognoziranaPotrosnja it in PrognoziranaPotrosnjaLista)
+                            {
+                                if (it.Equals(nova))
+                                {
+                                    novaFlag++;
+                                }
+                            }
+
+                            if (novaFlag == 0)
+                            {
+                                PrognoziranaPotrosnjaLista.Add(nova);
+                                WriteToXML(path, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
+                            }
+
                         }
 
-                    }
+                        Console.WriteLine(PrognoziranaPotrosnja.GetFormattedHeader());
 
-                    Console.WriteLine(OstvarenaPotrosnja.GetFormattedHeader());
-
-                    foreach (OstvarenaPotrosnja it in ostvarenaPotrosnjaLista)
-                    {
-                        Console.WriteLine(it);
-                    }
-                }
-                else if (path.Split('_')[0].Equals("prog"))
-                {
-                    for (int i = 0; i < sat.Count; i++)
-                    {
-                        int tmp = Convert.ToInt32(sat[i].InnerText);
-                        brojac++;
-                        PrognoziranaPotrosnja nova = new PrognoziranaPotrosnja(Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
-                        PrognoziranaPotrosnjaLista.Add(nova);
-
-                        WriteToXML(path,Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
-
-                    }
-
-                    Console.WriteLine(PrognoziranaPotrosnja.GetFormattedHeader());
-
-                    foreach (PrognoziranaPotrosnja it in PrognoziranaPotrosnjaLista)
-                    {
-                        Console.WriteLine(it);
+                        foreach (PrognoziranaPotrosnja it in PrognoziranaPotrosnjaLista)
+                        {
+                            Console.WriteLine(it);
+                        }
                     }
                 }
             }
-
             Console.WriteLine(brojac.ToString());
 
             return brojac;
         }
+
+
 
         public void WriteToXML(string path,int sat,int load,string oblast)
         {

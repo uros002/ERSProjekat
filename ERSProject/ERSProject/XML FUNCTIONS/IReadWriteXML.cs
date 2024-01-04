@@ -9,7 +9,7 @@ namespace ERSProject
     public interface IReadWriteXML
     {
 
-        int ReadFromXML(string path);
+        int ReadFromXML();
 
         void WriteToXML(string path,int id,int load, string oblast);
     }

@@ -44,17 +44,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\GeografskaPodrucja.cs" />
+    <Compile Include="Classes\NeispravniPodaci.cs" />
     <Compile Include="Classes\OstvarenaPotrosnja.cs" />
     <Compile Include="Classes\PrognoziranaPotrosnja.cs" />
+    <Compile Include="FUNCTIONS\CheckingValidityOfFiles.cs" />
+    <Compile Include="ProveraBazePodataka.cs" />
+    <Compile Include="SettingUpPaths.cs" />
+    <Compile Include="XML FUNCTIONS\IReadWriteXML.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XML FUNCTIONS\WriteReadXMLImplement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Source\geografska_podrucja.xml" />
+    <Content Include="Source\invalid_files.xml" />
     <Content Include="Source\ostv_2020_05_07.xml" />
+    <Content Include="Source\ostv_potrosnja.xml" />
     <Content Include="Source\prog_2020_05_07.xml" />
+    <Content Include="Source\prog_potrosnja.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

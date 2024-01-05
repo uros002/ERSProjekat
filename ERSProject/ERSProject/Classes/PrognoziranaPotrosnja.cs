@@ -27,16 +27,17 @@ namespace ERSProject.Classes
 
         public string FileName { get; set; }
 
-        public PrognoziranaPotrosnja(string document,int sat, int potrosnja, string podrucje)
+        public PrognoziranaPotrosnja(string path,int sat, int potrosnja, string podrucje)
         {
             this.Sat = sat;
             this.Potrosnja = potrosnja;
             this.Podrucje = podrucje;
-            this.FileName = document;
-            this.Date = DateTime.Now;
-            this.DateHour = DateTime.Now.Hour;
-            this.DateMinute = DateTime.Now.Minute;
-            this.DateSecond = DateTime.Now.Second;
+            FileName = path;
+            Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + FileName;
+            Date = DateTime.Now.Date;
+            DateHour = DateTime.Now.Hour;
+            DateMinute = DateTime.Now.Minute;
+            DateSecond = DateTime.Now.Second;
         }
 
         public override string ToString()

@@ -14,11 +14,11 @@ namespace ERSProject.Classes
 
         string Podrucje { get; set; }
 
-         DateTime Date { get; set; }
+        DateTime Date { get; set; }
 
         int DateHour { get; set; }
 
-         int DateMinute { get; set; }
+        int DateMinute { get; set; }
 
         int DateSecond { get; set; }
 

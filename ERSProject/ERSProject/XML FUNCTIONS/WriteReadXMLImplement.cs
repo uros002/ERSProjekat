@@ -26,49 +26,53 @@ namespace ERSProject
         private SettingUpPaths setUpPathsWrite = new SettingUpPaths();
         private CheckingValidityOfFiles checking = new CheckingValidityOfFiles();
 
-        /*
+
         private void LogInvalidFile(string document, XmlDocument xmlDoc)
-    {
-        NeispravniPodaci neispravniPodaci = new NeispravniPodaci(document);
+        {
+            NeispravniPodaci neispravniPodaci = new NeispravniPodaci(document);
 
-        // Evidentirajte neispravne podatke u novi XML fajl
-        XmlDocument invalidXmlDoc = new XmlDocument();
-        invalidXmlDoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\nevalidniPodaci.xml");
+            // Evidentirajte neispravne podatke u novi XML fajl
+            XmlDocument invalidXmlDoc = new XmlDocument();
+            invalidXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\invalid_files.xml");
+           
+            
+            XmlNode invalidFileNode = invalidXmlDoc.CreateElement("InvalidFile");
+                // invalidXmlDoc.DocumentElement.AppendChild(invalidFileNode);
 
-        XmlNode invalidFileNode = invalidXmlDoc.CreateElement("InvalidFile");
-        invalidXmlDoc.DocumentElement.AppendChild(invalidFileNode);
+                XmlNode fileNameNode = invalidXmlDoc.CreateElement("FileName");
+                fileNameNode.InnerText = neispravniPodaci.imeFajla;
+                invalidFileNode.AppendChild(fileNameNode);
 
-        XmlNode fileNameNode = invalidXmlDoc.CreateElement("FileName");
-        fileNameNode.InnerText = neispravniPodaci.imeFajla;
-        invalidFileNode.AppendChild(fileNameNode);
+                XmlNode locationNode = invalidXmlDoc.CreateElement("Location");
+                locationNode.InnerText = neispravniPodaci.lokacija;
+                invalidFileNode.AppendChild(locationNode);
 
-        XmlNode locationNode = invalidXmlDoc.CreateElement("Location");
-        locationNode.InnerText = neispravniPodaci.lokacija;
-        invalidFileNode.AppendChild(locationNode);
+                XmlNode timeNode = invalidXmlDoc.CreateElement("Time");
+                timeNode.InnerText = $"{neispravniPodaci.sat}:{neispravniPodaci.minuti}:{neispravniPodaci.sekunde}";
+                invalidFileNode.AppendChild(timeNode);
 
-        XmlNode timeNode = invalidXmlDoc.CreateElement("Time");
-        timeNode.InnerText = $"{neispravniPodaci.sat}:{neispravniPodaci.minuti}:{neispravniPodaci.sekunde}";
-        invalidFileNode.AppendChild(timeNode);
+                invalidXmlDoc.DocumentElement.AppendChild(invalidFileNode);
 
-        invalidXmlDoc.Save("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\nevalidniPodaci.xml");
-    }         
-         */
+                invalidXmlDoc.Save("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\invalid_files.xml");
+            
+        }
 
 
-        /*public void CheckAndLogInvalidFiles(string document)
+        public void CheckAndLogInvalidFiles(string document)
     {
         XmlDocument xmlDoc = new XmlDocument();
-        xmlDoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + document);
+      //  xmlDoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + document);
+        xmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + document);
 
         if (!IsValid(xmlDoc))
         {
             LogInvalidFile(document, xmlDoc);
         }
     }
-         */
+         
 
 
-        /*
+        
          private bool IsValid(XmlDocument xmlDoc)
           {
                XmlNodeList sat = xmlDoc.GetElementsByTagName("SAT");
@@ -121,7 +125,7 @@ namespace ERSProject
     return true;  // Ako sve provere prolaze
    }
           
-         */
+         
 
 >>>>>>> Stashed changes
         public int ReadFromXML()
@@ -179,7 +183,7 @@ namespace ERSProject
                 //xmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + path);
                 // xmlDoc.Load(path);
 
-                //CheckAndLogInvalidFiles(path);    N
+                CheckAndLogInvalidFiles(path);    
 
                 XmlNodeList sat = xmlDoc.GetElementsByTagName("SAT");
                 XmlNodeList potrosnja = xmlDoc.GetElementsByTagName("LOAD");

@@ -14,12 +14,12 @@ namespace ERSProject
 
         private SettingUpPaths setUpPaths = new SettingUpPaths();
         private SettingUpPaths setUpPathsWrite = new SettingUpPaths();
-
+        private List<string> invalidFilesList = new List<string>();
 
         private void LogInvalidFile(string document, XmlDocument xmlDoc)
         {
             NeispravniPodaci neispravniPodaci = new NeispravniPodaci(document);
-
+            invalidFilesList.Add(document);
             // Evidentirajte neispravne podatke u novi XML fajl
             XmlDocument invalidXmlDoc = new XmlDocument();
             invalidXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\invalid_files.xml");
@@ -45,7 +45,36 @@ namespace ERSProject
                 invalidXmlDoc.Save("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\invalid_files.xml");
             
         }
+        
+         private void FinalizeInvalidFiles()
+        {
+            XmlDocument invalidXmlDoc = new XmlDocument();
+            string invalidFilePath = "C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\invalid_files.xml";
+            invalidXmlDoc.Load(invalidFilePath);
 
+            // Obriši postojeće nevažeće podatke
+            invalidXmlDoc.DocumentElement.RemoveAll();
+
+            // Dodaj nove nevažeće podatke na osnovu liste
+            foreach (string invalidFile in invalidFilesList)
+            {
+                XmlNode invalidFileNode = invalidXmlDoc.CreateElement("InvalidFile");
+
+                XmlNode fileNameNode = invalidXmlDoc.CreateElement("FileName");
+                fileNameNode.InnerText = invalidFile;
+                invalidFileNode.AppendChild(fileNameNode);
+
+                // Dodajte dodatne informacije o neispravnim podacima ako je potrebno
+
+                invalidXmlDoc.DocumentElement.AppendChild(invalidFileNode);
+            }
+
+            invalidXmlDoc.Save(invalidFilePath);
+
+            // Obavezno čistite listu kako biste je pripremili za sledeće izvršavanje
+            invalidFilesList.Clear();
+        }
+         
 
         public void CheckAndLogInvalidFiles(string document)
     {
@@ -189,6 +218,28 @@ namespace ERSProject
             return brojac;
         }
 
+        
+         public void IspisPodatakaOstvarenePotrosnje(string date, string region)
+{
+     List<PrognoziranaPotrosnja> prognoziranaPotrosnjaLista = new List<PrognoziranaPotrosnja>();
+     List<OstvarenaPotrosnja> ostvarenaPotrosnjaLista = new List<OstvarenaPotrosnja>();
+
+    // Učitajte prognoziranu potrošnju
+     XmlDocument progXmlDoc = new XmlDocument();
+     progXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\prog_potrosnja.xml");
+
+    // Učitajte ostvarenu potrošnju
+     XmlDocument ostvXmlDoc = new XmlDocument();
+     ostvXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\ostv_potrosnja.xml");
+
+    // Filtrirajte podatke prema datumu i regionu
+     XmlNodeList progStavke = progXmlDoc.SelectNodes($"//Stavka[Oblast='{region}' and starts-with(Sat, '{date}')]");
+
+   
+}
+
+         
+
         public void WriteToXML(string path,int sat,int load,string oblast)
         {
             //List<string> Paths = setUpPaths.SettUpPathsWrite();
@@ -198,7 +249,7 @@ namespace ERSProject
             if (path.Split('_')[0].Equals("ostv"))
             {
                 pathWrite = "ostv_potrosnja.xml";
-                Console.WriteLine("AAAAAAAAAAAAAAAAAAAA");
+              //  Console.WriteLine("AAAAAAAAAAAAAAAAAAAA");
             }
             else if (path.Split('_')[0].Equals("prog")) {
                 pathWrite = "prog_potrosnja.xml";

@@ -30,6 +30,12 @@ namespace ERSProject
                         wrxml.ReadFromXML("ostv_2020_05_07.xml");
                         break;
                     case "2":
+                    
+                        Console.WriteLine("Unesite datum (format: YYYY_MM_DD): ");
+                        string date = Console.ReadLine();
+                        Console.WriteLine("Unesite geografsku oblast: ");
+                        string region = Console.ReadLine();
+                        wrxml.IspisPodatakaOstvarenePotrosnje(date, region);
                         break;
                     case "3":
                         break;

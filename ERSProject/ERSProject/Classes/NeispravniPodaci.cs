@@ -18,7 +18,7 @@ namespace ERSProject.Classes
         public NeispravniPodaci(string filePath)
         {
             imeFajla = Path.GetFileName(filePath);
-            lokacija = filePath;
+            lokacija = "C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\"+filePath;
             DateTime vreme = DateTime.Now;
             sat = vreme.Hour;
             minuti = vreme.Minute;

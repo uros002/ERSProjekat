@@ -28,7 +28,11 @@ namespace ERSProject
                 switch (input)
                 {
                     case "1":
+<<<<<<< Updated upstream
                         UvozPodataka();
+=======
+                        wrxml.ReadFromXML();
+>>>>>>> Stashed changes
                         break;
                     case "2":
                         break;

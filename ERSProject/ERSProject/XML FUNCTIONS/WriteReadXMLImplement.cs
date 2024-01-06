@@ -7,6 +7,7 @@ using System.Xml;
 using System.IO;
 using ERSProject.Classes;
 using ERSProject.FUNCTIONS;
+using ERSProject.XML_FUNCTIONS;
 
 namespace ERSProject
 {
@@ -19,7 +20,9 @@ namespace ERSProject
         private string sourcePath = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
         private List<OstvarenaPotrosnja> ostvarenaPotrosnjaLista = new List<OstvarenaPotrosnja>();
         private List<PrognoziranaPotrosnja> PrognoziranaPotrosnjaLista = new List<PrognoziranaPotrosnja>();
+        private WriteGeografskaPodrucjaDB RWGeografskaPodrucja = new WriteGeografskaPodrucjaDB();
         //private ProveraBazePodataka provera = new ProveraBazePodataka();
+
 
 
 
@@ -215,20 +218,21 @@ namespace ERSProject
             
            
                 XmlDocument xmldoc = new XmlDocument();
-            if (path.Split('_')[0].Equals("ostv"))
+            string typeOfBase = path.Split('_')[0];
+            if (typeOfBase.Equals("ostv"))
             {
                 pathWrite = "ostv_potrosnja.xml";
 
             }
-            else if (path.Split('_')[0].Equals("prog")) {
+            else if (typeOfBase.Equals("prog")) {
                 pathWrite = "prog_potrosnja.xml";
             }
 
-
+            
                 //string FullPath = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
-             xmldoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
-              // xmldoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
-            XmlNode Stavka = xmldoc.CreateElement("Stavka");
+                xmldoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
+                // xmldoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
+                XmlNode Stavka = xmldoc.CreateElement("Stavka");
 
 
                 XmlNode Sat = xmldoc.CreateElement("Sat");
@@ -248,34 +252,40 @@ namespace ERSProject
                 Stavka.AppendChild(FileName);
 
 
-            XmlNode Date = xmldoc.CreateElement("DatumUvoza");
-            Date.InnerText = potrosnja.Date.ToString();
-            Stavka.AppendChild(Date);
+                XmlNode Date = xmldoc.CreateElement("DatumUvoza");
+                Date.InnerText = potrosnja.Date.ToString();
+                Stavka.AppendChild(Date);
 
-            XmlNode Hour = xmldoc.CreateElement("SatUvoza");
-            Hour.InnerText = potrosnja.DateHour.ToString();
-            Stavka.AppendChild(Hour);
+                XmlNode Hour = xmldoc.CreateElement("SatUvoza");
+                Hour.InnerText = potrosnja.DateHour.ToString();
+                Stavka.AppendChild(Hour);
 
-            XmlNode Minute = xmldoc.CreateElement("MinutUvoza");
-            Minute.InnerText = potrosnja.DateMinute.ToString();
-            Stavka.AppendChild(Minute);
+                XmlNode Minute = xmldoc.CreateElement("MinutUvoza");
+                Minute.InnerText = potrosnja.DateMinute.ToString();
+                Stavka.AppendChild(Minute);
 
-            XmlNode Second = xmldoc.CreateElement("SekundUvoza");
-            Second.InnerText = potrosnja.DateSecond.ToString();
-            Stavka.AppendChild(Second);
+                XmlNode Second = xmldoc.CreateElement("SekundUvoza");
+                Second.InnerText = potrosnja.DateSecond.ToString();
+                Stavka.AppendChild(Second);
 
-            XmlNode Path = xmldoc.CreateElement("Putanja");
-            Path.InnerText = potrosnja.Path.ToString();
-            Stavka.AppendChild(Path);
+                XmlNode Path = xmldoc.CreateElement("Putanja");
+                Path.InnerText = potrosnja.Path.ToString();
+                Stavka.AppendChild(Path);
 
-            
 
-            xmldoc.DocumentElement.AppendChild(Stavka);
+
+                xmldoc.DocumentElement.AppendChild(Stavka);
 
                 xmldoc.Save("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
-              //xmldoc.Save("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
-               
 
+            //xmldoc.Save("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
+
+            GeografskaPodrucja geoPod = new GeografskaPodrucja(potrosnja.Podrucje, potrosnja.Podrucje);
+            int exists = RWGeografskaPodrucja.ReadGeografskaPodrucja(geoPod);
+            if(exists == 0)
+            {
+                RWGeografskaPodrucja.WriteGeografskaPodrucja(geoPod);
+            }
 
 
         }

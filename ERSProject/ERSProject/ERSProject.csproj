@@ -49,11 +49,16 @@
     <Compile Include="Classes\OstvarenaPotrosnja.cs" />
     <Compile Include="Classes\PrognoziranaPotrosnja.cs" />
     <Compile Include="FUNCTIONS\CheckingValidityOfFiles.cs" />
+    <Compile Include="GeografskaPodrucjaUI.cs" />
+    <Compile Include="IzmenaImenaUI.cs" />
+    <Compile Include="PrikazGeografskihPodrucja.cs" />
     <Compile Include="ProveraBazePodataka.cs" />
     <Compile Include="SettingUpPaths.cs" />
+    <Compile Include="UnosPodrucjaUI.cs" />
     <Compile Include="XML FUNCTIONS\IReadWriteXML.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XML FUNCTIONS\WriteGeografskaPodrucjaDB.cs" />
     <Compile Include="XML FUNCTIONS\WriteReadXMLImplement.cs" />
   </ItemGroup>
   <ItemGroup>

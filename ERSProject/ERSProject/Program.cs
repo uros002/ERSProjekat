@@ -10,6 +10,7 @@ namespace ERSProject
     class Program
     {
         public static readonly WriteReadXMLImplement wrxml = new WriteReadXMLImplement();
+        public static GeografskaPodrucjaUI geoPodUI = new GeografskaPodrucjaUI();
         
         static void Main(string[] args)
         {
@@ -35,6 +36,7 @@ namespace ERSProject
                     case "2":
                         break;
                     case "3":
+                        GeografskaPodrucjaUI();
                         break;
                 }
 
@@ -46,6 +48,11 @@ namespace ERSProject
                 
                     wrxml.ReadFromXML();
                   
+            }
+
+            void GeografskaPodrucjaUI()
+            {
+                geoPodUI.GeoPodUI();
             }
         }
     }

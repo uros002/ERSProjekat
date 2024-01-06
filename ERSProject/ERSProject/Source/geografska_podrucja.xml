@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<GEOGRAFSKA_PODRUCJA>
+  <Podrucje>
+    <Sirina>VOJ</Sirina>
+    <Naziv>Vojvodina</Naziv>
+  </Podrucje>
+  <Podrucje>
+    <Sirina>BGD</Sirina>
+    <Naziv>BGD</Naziv>
+  </Podrucje>
+  <Podrucje>
+    <Sirina>SEMB</Sirina>
+    <Naziv>Semberija</Naziv>
+  </Podrucje>
+</GEOGRAFSKA_PODRUCJA>

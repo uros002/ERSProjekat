@@ -14,13 +14,9 @@ namespace ERSProject.Classes
 
         string Podrucje { get; set; }
 
-        DateTime Date { get; set; }
+        string Date { get; set; }
 
-        int DateHour { get; set; }
-
-        int DateMinute { get; set; }
-
-        int DateSecond { get; set; }
+       string Time { get; set; }
 
         string Path { get; set; }
 

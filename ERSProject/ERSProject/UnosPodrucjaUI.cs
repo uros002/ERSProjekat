@@ -11,7 +11,7 @@ namespace ERSProject
     public class UnosPodrucjaUI
     {
         private WriteGeografskaPodrucjaDB RWGeografskaPodrucja = new WriteGeografskaPodrucjaDB();
-        public void UnosGeografskihPodrucja()
+        public void UnosGeografskihPodrucja(string path)
         {
             Console.WriteLine("\nUnesite sifru podrucja");
             string sifra = Console.ReadLine();
@@ -20,14 +20,14 @@ namespace ERSProject
 
             GeografskaPodrucja geoPod = new GeografskaPodrucja(naziv, sifra);
 
-            int exists = RWGeografskaPodrucja.ReadGeografskaPodrucja(geoPod);
+            int exists = RWGeografskaPodrucja.ReadGeografskaPodrucja(geoPod,path);
             if (exists != 0 )
             {
                 Console.WriteLine("Vec postoji geografsko podrucje koje ste zeleli da unesete");
             }
             else
             {
-                RWGeografskaPodrucja.WriteGeografskaPodrucja(geoPod);
+                RWGeografskaPodrucja.WriteGeografskaPodrucja(geoPod,path);
             }
 
         }

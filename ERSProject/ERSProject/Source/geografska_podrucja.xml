@@ -6,10 +6,18 @@
   </Podrucje>
   <Podrucje>
     <Sirina>BGD</Sirina>
-    <Naziv>BGD</Naziv>
+    <Naziv>Beograd</Naziv>
   </Podrucje>
   <Podrucje>
     <Sirina>SEMB</Sirina>
     <Naziv>Semberija</Naziv>
+  </Podrucje>
+  <Podrucje>
+    <Sirina>HERCG</Sirina>
+    <Naziv>Hercegovina</Naziv>
+  </Podrucje>
+  <Podrucje>
+    <Sirina>NBG</Sirina>
+    <Naziv>Novi Beograd</Naziv>
   </Podrucje>
 </GEOGRAFSKA_PODRUCJA>

@@ -12,8 +12,9 @@ namespace ERSProject
     {
 
         private WriteGeografskaPodrucjaDB RWGeografskaPodrucja = new WriteGeografskaPodrucjaDB();
+        private UpdateGeografskaPodrucjaDB updateGeografskaPodrucja = new UpdateGeografskaPodrucjaDB();
 
-        public void IzmenaImenaGeografskogPodrcuja()
+        public void IzmenaImenaGeografskogPodrcuja(string path)
         {
             Console.WriteLine("\nUnesite sifru podrucja");
             string sirina = Console.ReadLine();
@@ -22,10 +23,10 @@ namespace ERSProject
 
             GeografskaPodrucja geoPod = new GeografskaPodrucja(naziv, sirina);
 
-            int exists = RWGeografskaPodrucja.ReadGeografskaPodrucja(geoPod);
+            int exists = RWGeografskaPodrucja.ReadGeografskaPodrucja(geoPod,path);
             if (exists != 0)
             {
-                RWGeografskaPodrucja.UpdateGeografskaPodrucja(geoPod);
+                updateGeografskaPodrucja.UpdateGeografskaPodrucja(geoPod,path);
                 Console.WriteLine("Uspesno ste postavili naziv " + geoPod.NazivPodrucja.ToUpper() + " za podrucje sa sifrom " + geoPod.SirinaPodrucja + "\n");
             }
             else

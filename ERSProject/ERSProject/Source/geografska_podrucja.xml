@@ -20,4 +20,8 @@
     <Sirina>NBG</Sirina>
     <Naziv>Novi Beograd</Naziv>
   </Podrucje>
+  <Podrucje>
+    <Sirina>PRLZ</Sirina>
+    <Naziv>Perlez</Naziv>
+  </Podrucje>
 </GEOGRAFSKA_PODRUCJA>

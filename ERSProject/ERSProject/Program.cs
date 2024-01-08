@@ -13,6 +13,7 @@ namespace ERSProject
         public static GeografskaPodrucjaUI geoPodUI = new GeografskaPodrucjaUI();
         public static UvozPodatakaUI uvozPodatakaUI = new UvozPodatakaUI();
         public static string path;
+        public static IspisPotrosnje ispis = new IspisPotrosnje();
         static void Main(string[] args)
         {
             
@@ -37,12 +38,7 @@ namespace ERSProject
 
                         break;
                     case "2":
-                    
-                        Console.WriteLine("Unesite datum (format: DD/MM/YYYY): ");
-                        string date = Console.ReadLine();
-                        Console.WriteLine("Unesite geografsku oblast: ");
-                        string region = Console.ReadLine();
-                        wrxml.IspisPodatakaOstvarenePotrosnje(date, region);
+                        IspisPoDatumu();
                         break;
                     case "3":
                         GeografskaPodrucjaUI();
@@ -51,6 +47,10 @@ namespace ERSProject
 
             } while (!input.ToLower().Equals("x"));
 
+            void IspisPoDatumu()
+            {
+                ispis.Ispisi(path);
+            }
 
             void UvozPodataka()
             {

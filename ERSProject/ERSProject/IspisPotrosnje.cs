@@ -9,13 +9,15 @@ namespace ERSProject
    public class IspisPotrosnje
     {
         private static IspisiOstvarenePotrosnje isp = new IspisiOstvarenePotrosnje();
-        public void Ispisi()
+        
+        public void Ispisi(string path)
         {
+            
             Console.WriteLine("Unesite datum (format: DD/MM/YYYY): ");
             string date = Console.ReadLine();
             Console.WriteLine("Unesite geografsku oblast: ");
             string region = Console.ReadLine();
-            isp.IspisPodatakaOstvarenePotrosnje(date, region);
+            isp.IspisPodatakaOstvarenePotrosnje(path,date, region);
         }
     }
 }

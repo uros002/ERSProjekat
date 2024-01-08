@@ -10,13 +10,13 @@ namespace ERSProject
 {
     class ProveraNevalidnosti
     {
-        private void LogInvalidFile(string document, XmlDocument xmlDoc)
+        private void LogInvalidFile(string path,string document, XmlDocument xmlDoc)
         {
-            NeispravniPodaci neispravniPodaci = new NeispravniPodaci(document);
+            NeispravniPodaci neispravniPodaci = new NeispravniPodaci(path,document);
 
             // Evidentirajte neispravne podatke u novi XML fajl
             XmlDocument invalidXmlDoc = new XmlDocument();
-            invalidXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\invalid_files.xml");
+            invalidXmlDoc.Load(path+"\\"+"invalid_files.xml");
 
 
             XmlNode invalidFileNode = invalidXmlDoc.CreateElement("InvalidFile");
@@ -36,20 +36,20 @@ namespace ERSProject
 
             invalidXmlDoc.DocumentElement.AppendChild(invalidFileNode);
 
-            invalidXmlDoc.Save("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\invalid_files.xml");
+            invalidXmlDoc.Save(path+"\\"+"invalid_files.xml");
 
         }
 
 
-        public void CheckAndLogInvalidFiles(string document)
+        public void CheckAndLogInvalidFiles(string path,string document)
         {
             XmlDocument xmlDoc = new XmlDocument();
             //  xmlDoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + document);
-            xmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + document);
+            xmlDoc.Load(path+"\\" + document);
 
             if (!IsValid(xmlDoc))
             {
-                LogInvalidFile(document, xmlDoc);
+                LogInvalidFile(path,document, xmlDoc);
             }
         }
 

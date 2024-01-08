@@ -12,18 +12,18 @@ namespace ERSProject
     class IspisiOstvarenePotrosnje
     {
 
-        public void IspisPodatakaOstvarenePotrosnje(string date, string region)
+        public void IspisPodatakaOstvarenePotrosnje(string path,string date, string region)
         {
             List<PrognoziranaPotrosnja> prognoziranaPotrosnjaLista = new List<PrognoziranaPotrosnja>();
             List<OstvarenaPotrosnja> ostvarenaPotrosnjaLista = new List<OstvarenaPotrosnja>();
 
             // Učitajte prognoziranu potrošnju
             XmlDocument progXmlDoc = new XmlDocument();
-            progXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\prog_potrosnja.xml");
+            progXmlDoc.Load(path+ "\\" + "prog_potrosnja.xml");
 
             // Učitajte ostvarenu potrošnju
             XmlDocument ostvXmlDoc = new XmlDocument();
-            ostvXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\ostv_potrosnja.xml");
+            ostvXmlDoc.Load(path+"\\"+ "ostv_potrosnja.xml");
 
             // Filtrirajte podatke prema datumu i regionu
             XmlNodeList progStavke = progXmlDoc.SelectNodes($"//Stavka[Oblast='{region}' and starts-with(DatumUvoza, '{date}')]");
@@ -32,7 +32,7 @@ namespace ERSProject
             {
                 int sat = int.Parse(stavka.SelectSingleNode("Sat").InnerText);
                 int potrosnja = int.Parse(stavka.SelectSingleNode("Load").InnerText);
-                prognoziranaPotrosnjaLista.Add(new PrognoziranaPotrosnja("prog_potrosnja.xml", sat, potrosnja, region));
+                prognoziranaPotrosnjaLista.Add(new PrognoziranaPotrosnja(path, "prog_2020_05_07.xml", sat, potrosnja, region));
             }
 
             string xpathExpression = $"//Stavka[Oblast='{region}' and starts-with(DatumUvoza, '{date}')]";
@@ -42,11 +42,11 @@ namespace ERSProject
             {
                 int sat = int.Parse(stavka.SelectSingleNode("Sat").InnerText);
                 int potrosnja = int.Parse(stavka.SelectSingleNode("Load").InnerText);
-                ostvarenaPotrosnjaLista.Add(new OstvarenaPotrosnja("ostv_potrosnja.xml", sat, potrosnja, region));
+                ostvarenaPotrosnjaLista.Add(new OstvarenaPotrosnja(path,"ostv_2020_05_07.xml", sat, potrosnja, region));
             }
 
             // Postavite putanju za CSV fajl
-            string putanjaZaCsv = "C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\podaci.csv";
+            string putanjaZaCsv = path+"\\"+"podaci.csv";
 
             // Dodajte StreamWriter za upis u CSV fajl
             using (StreamWriter writer = new StreamWriter(putanjaZaCsv))

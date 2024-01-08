@@ -16,7 +16,8 @@ namespace ERSProject.XML_FUNCTIONS
         {
             XmlDocument xmlGeoPod = new XmlDocument();
 
-            xmlGeoPod.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
+           // xmlGeoPod.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
+            xmlGeoPod.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
 
             XmlNode Podrucje = xmlGeoPod.CreateElement("Podrucje");
 
@@ -30,7 +31,8 @@ namespace ERSProject.XML_FUNCTIONS
 
             xmlGeoPod.DocumentElement.AppendChild(Podrucje);
 
-            xmlGeoPod.Save("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
+          //  xmlGeoPod.Save("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
+            xmlGeoPod.Save("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
         }
 
         public int ReadGeografskaPodrucja(GeografskaPodrucja geoPod)
@@ -38,7 +40,8 @@ namespace ERSProject.XML_FUNCTIONS
             int flag = 0;
             XmlDocument xmlGeoPod = new XmlDocument();
 
-            xmlGeoPod.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
+            //xmlGeoPod.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
+            xmlGeoPod.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
 
             XmlNodeList sirina = xmlGeoPod.GetElementsByTagName("Sirina");
             XmlNodeList naziv = xmlGeoPod.GetElementsByTagName("Naziv");
@@ -58,7 +61,8 @@ namespace ERSProject.XML_FUNCTIONS
         {
             XmlDocument xmlGeoPod = new XmlDocument();
 
-            xmlGeoPod.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
+            //xmlGeoPod.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
+            xmlGeoPod.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
 
             XmlNodeList targetNodes = xmlGeoPod.SelectNodes("//GEOGRAFSKA_PODRUCJA/Podrucje");
             foreach(XmlNode node in targetNodes)
@@ -78,7 +82,8 @@ namespace ERSProject.XML_FUNCTIONS
             }
 
 
-            xmlGeoPod.Save("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
+            //xmlGeoPod.Save("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
+            xmlGeoPod.Save("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
 
         }
 

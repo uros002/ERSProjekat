@@ -35,7 +35,7 @@ namespace ERSProject
                         break;
                     case "2":
                     
-                        Console.WriteLine("Unesite datum (format: YYYY_MM_DD): ");
+                        Console.WriteLine("Unesite datum (format: DD/MM/YYYY): ");
                         string date = Console.ReadLine();
                         Console.WriteLine("Unesite geografsku oblast: ");
                         string region = Console.ReadLine();

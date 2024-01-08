@@ -17,7 +17,8 @@ namespace ERSProject
         private SettingUpPaths setUpPaths = new SettingUpPaths();
 
         //private SettingUpPaths setUpPathsWrite = new SettingUpPaths();
-        private string sourcePath = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
+     //   private string sourcePath = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
+        private string sourcePath = "C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
         private List<OstvarenaPotrosnja> ostvarenaPotrosnjaLista = new List<OstvarenaPotrosnja>();
         private List<PrognoziranaPotrosnja> PrognoziranaPotrosnjaLista = new List<PrognoziranaPotrosnja>();
         private WriteGeografskaPodrucjaDB RWGeografskaPodrucja = new WriteGeografskaPodrucjaDB();
@@ -123,11 +124,68 @@ namespace ERSProject
 
     return true;  // Ako sve provere prolaze
    }
-          
-         
+
+        public void IspisPodatakaOstvarenePotrosnje(string date, string region)
+        {
+            List<PrognoziranaPotrosnja> prognoziranaPotrosnjaLista = new List<PrognoziranaPotrosnja>();
+            List<OstvarenaPotrosnja> ostvarenaPotrosnjaLista = new List<OstvarenaPotrosnja>();
+
+            // Učitajte prognoziranu potrošnju
+            XmlDocument progXmlDoc = new XmlDocument();
+            progXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\prog_potrosnja.xml");
+
+            // Učitajte ostvarenu potrošnju
+            XmlDocument ostvXmlDoc = new XmlDocument();
+            ostvXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\ostv_potrosnja.xml");
+
+            // Filtrirajte podatke prema datumu i regionu
+            XmlNodeList progStavke = progXmlDoc.SelectNodes($"//Stavka[Oblast='{region}' and starts-with(DatumUvoza, '{date}')]");
+
+            foreach (XmlNode stavka in progStavke)
+            {
+                int sat = int.Parse(stavka.SelectSingleNode("Sat").InnerText);
+                int potrosnja = int.Parse(stavka.SelectSingleNode("Load").InnerText);
+                prognoziranaPotrosnjaLista.Add(new PrognoziranaPotrosnja("prog_potrosnja.xml",sat, potrosnja, region));
+            }
+
+            string xpathExpression = $"//Stavka[Oblast='{region}' and starts-with(DatumUvoza, '{date}')]";
+            XmlNodeList ostvStavke = ostvXmlDoc.SelectNodes(xpathExpression);
+
+            foreach (XmlNode stavka in ostvStavke)
+            {
+                int sat = int.Parse(stavka.SelectSingleNode("Sat").InnerText);
+                int potrosnja = int.Parse(stavka.SelectSingleNode("Load").InnerText);
+                ostvarenaPotrosnjaLista.Add(new OstvarenaPotrosnja("ostv_potrosnja.xml", sat, potrosnja, region));
+            }
+
+            // Postavite putanju za CSV fajl
+            string putanjaZaCsv = "C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\podaci.csv";
+
+            // Dodajte StreamWriter za upis u CSV fajl
+            using (StreamWriter writer = new StreamWriter(putanjaZaCsv))
+            {
+                writer.WriteLine( "Sat,\tPrognozirana,\tOstvarena,\tRel. Odstupanje");
+                Console.WriteLine( "Sat,\tPrognozirana,\tOstvarena,\tRel. Odstupanje");
+                
+                for (int i = 0; i < prognoziranaPotrosnjaLista.Count; i++)
+                {
+                    PrognoziranaPotrosnja prognoza = prognoziranaPotrosnjaLista[i];
+                    OstvarenaPotrosnja ostvareno = ostvarenaPotrosnjaLista[i];
+
+                    double relativnoOdstupanje = Math.Abs(ostvareno.Potrosnja - prognoza.Potrosnja) / (double)ostvareno.Potrosnja * 100;
+
+                    string line = $"{prognoza.Sat},\t{prognoza.Potrosnja},\t{ostvareno.Potrosnja},\t{relativnoOdstupanje:F2}";
+                    Console.WriteLine(line);
+
+                    // Upisivanje linije u CSV fajl
+                    writer.WriteLine(line);
+                }
+            }
+        }
 
 
-        public int ReadFromXML()
+
+            public int ReadFromXML()
         {
             
             List<string>Paths  = setUpPaths.SettUpPathsRead();
@@ -149,9 +207,9 @@ namespace ERSProject
             {
                 XmlDocument xmlDoc = new XmlDocument();
                 //string path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
-                 xmlDoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + path);
+                // xmlDoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + path);
 
-                //xmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + path);
+                xmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + path);
                 // xmlDoc.Load(path);
 
                 //CheckAndLogInvalidFiles(path);    
@@ -177,7 +235,8 @@ namespace ERSProject
                         int tmp = Convert.ToInt32(sat[i].InnerText);
                         brojac++;
                         OstvarenaPotrosnja nova = new OstvarenaPotrosnja(path, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
-                        nova.Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + nova.FileName;
+                     //   nova.Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + nova.FileName;
+                        nova.Path = "C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + nova.FileName;
 
                         //ostvarenaPotrosnjaLista = checking.CheckingValidFiles(path.Split('_')[0] + "_potrosnja.xml");
                         WriteToXML(path, nova);
@@ -190,7 +249,8 @@ namespace ERSProject
                         int tmp = Convert.ToInt32(sat[i].InnerText);
                         brojac++;
                         PrognoziranaPotrosnja nova = new PrognoziranaPotrosnja(path, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
-                        nova.Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + nova.FileName;
+                       // nova.Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + nova.FileName;
+                        nova.Path = "C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + nova.FileName;
                         WriteToXML(path, nova);
                         //PrognoziranaPotrosnjaLista = checking.CheckingValidFiles(path.Split('_')[0].ToString() + "_potrosnja.xml");
                         //int existsFlag = 0;
@@ -230,8 +290,8 @@ namespace ERSProject
 
             
                 //string FullPath = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
-                xmldoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
-                // xmldoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
+                //xmldoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
+                 xmldoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
                 XmlNode Stavka = xmldoc.CreateElement("Stavka");
 
 
@@ -276,9 +336,9 @@ namespace ERSProject
 
                 xmldoc.DocumentElement.AppendChild(Stavka);
 
-                xmldoc.Save("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
+              //  xmldoc.Save("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
 
-            //xmldoc.Save("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
+            xmldoc.Save("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + pathWrite);
 
             GeografskaPodrucja geoPod = new GeografskaPodrucja(potrosnja.Podrucje, potrosnja.Podrucje);
             int exists = RWGeografskaPodrucja.ReadGeografskaPodrucja(geoPod);

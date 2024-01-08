@@ -218,27 +218,64 @@ namespace ERSProject
             return brojac;
         }
 
-        
-         public void IspisPodatakaOstvarenePotrosnje(string date, string region)
-{
-     List<PrognoziranaPotrosnja> prognoziranaPotrosnjaLista = new List<PrognoziranaPotrosnja>();
-     List<OstvarenaPotrosnja> ostvarenaPotrosnjaLista = new List<OstvarenaPotrosnja>();
 
-    // Učitajte prognoziranu potrošnju
-     XmlDocument progXmlDoc = new XmlDocument();
-     progXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\prog_potrosnja.xml");
+        public void IspisPodatakaOstvarenePotrosnje(string date, string region)
+        {
+            List<PrognoziranaPotrosnja> prognoziranaPotrosnjaLista = new List<PrognoziranaPotrosnja>();
+            List<OstvarenaPotrosnja> ostvarenaPotrosnjaLista = new List<OstvarenaPotrosnja>();
 
-    // Učitajte ostvarenu potrošnju
-     XmlDocument ostvXmlDoc = new XmlDocument();
-     ostvXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\ostv_potrosnja.xml");
+            // Učitajte prognoziranu potrošnju
+            XmlDocument progXmlDoc = new XmlDocument();
+            progXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\prog_potrosnja.xml");
 
-    // Filtrirajte podatke prema datumu i regionu
-     XmlNodeList progStavke = progXmlDoc.SelectNodes($"//Stavka[Oblast='{region}' and starts-with(Sat, '{date}')]");
+            // Učitajte ostvarenu potrošnju
+            XmlDocument ostvXmlDoc = new XmlDocument();
+            ostvXmlDoc.Load("C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\ostv_potrosnja.xml");
 
-   
-}
+            // Filtrirajte podatke prema datumu i regionu
+            XmlNodeList progStavke = progXmlDoc.SelectNodes($"//Stavka[Oblast='{region}' and starts-with(Sat, '{date}')]");
+            foreach (XmlNode stavka in progStavke)
+            {
+                int sat = int.Parse(stavka.SelectSingleNode("Sat").InnerText);
+                int potrosnja = int.Parse(stavka.SelectSingleNode("Load").InnerText);
+                prognoziranaPotrosnjaLista.Add(new PrognoziranaPotrosnja(sat, potrosnja, region));
+            }
 
-         
+            string xpathExpression = $"//Stavka[Oblast='{region}' and starts-with(Sat, '{date}')]";
+            XmlNodeList ostvStavke = ostvXmlDoc.SelectNodes(xpathExpression);
+
+            foreach (XmlNode stavka in ostvStavke)
+            {
+                int sat = int.Parse(stavka.SelectSingleNode("Sat").InnerText);
+                int potrosnja = int.Parse(stavka.SelectSingleNode("Load").InnerText);
+                ostvarenaPotrosnjaLista.Add(new OstvarenaPotrosnja(sat, potrosnja, region));
+            }
+
+            // Postavite putanju za CSV fajl
+            string putanjaZaCsv = "C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\podaci.csv";
+
+            // Dodajte StreamWriter za upis u CSV fajl
+            using (StreamWriter writer = new StreamWriter(putanjaZaCsv))
+            {
+                writer.WriteLine(PrognoziranaPotrosnja.GetFormattedHeader() + ",Ostvareno,Rel. Odstupanje");
+
+                for (int i = 0; i < prognoziranaPotrosnjaLista.Count; i++)
+                {
+                    PrognoziranaPotrosnja prognoza = prognoziranaPotrosnjaLista[i];
+                    OstvarenaPotrosnja ostvareno = ostvarenaPotrosnjaLista[i];
+
+                    double relativnoOdstupanje = Math.Abs(ostvareno.Potrosnja - prognoza.Potrosnja) / (double)ostvareno.Potrosnja * 100;
+
+                    string line = $"{prognoza},{ostvareno.Potrosnja},{relativnoOdstupanje:F2}";
+                    Console.WriteLine(line);
+
+                    // Upisivanje linije u CSV fajl
+                    writer.WriteLine(line);
+                }
+            }
+        }
+
+
 
         public void WriteToXML(string path,int sat,int load,string oblast)
         {

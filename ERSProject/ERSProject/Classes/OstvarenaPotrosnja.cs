@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ERSProject.Classes
 {
-    class OstvarenaPotrosnja
+    class OstvarenaPotrosnja : IPotrosnja
     {
         
         public int Sat { get; set; }
@@ -14,13 +14,42 @@ namespace ERSProject.Classes
         public int Potrosnja { get; set; }
 
         public string Podrucje { get; set; }
+        public DateTime Date { get; set; }
 
-        public OstvarenaPotrosnja(int sat,int potrosnja,string podrucje)
+
+
+        public int DateHour { get; set; }
+
+        public int DateMinute { get; set; }
+
+        public int DateSecond { get; set; }
+
+        public string Path { get; set; }
+
+        public string FileName { get; set; }
+
+
+
+
+
+
+
+        public OstvarenaPotrosnja(string path,int sat,int potrosnja,string podrucje)
+
         {
             this.Sat = sat;
             this.Potrosnja = potrosnja;
             this.Podrucje = podrucje;
+            FileName = path;
+            Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + FileName;
+            Date = DateTime.Now.Date;
+            DateHour = DateTime.Now.Hour;
+            DateMinute = DateTime.Now.Minute;
+            DateSecond = DateTime.Now.Second;
+
         }
+
+
 
         public override string ToString()
         {

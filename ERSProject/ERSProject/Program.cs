@@ -10,6 +10,8 @@ namespace ERSProject
     class Program
     {
         public static readonly WriteReadXMLImplement wrxml = new WriteReadXMLImplement();
+        public static GeografskaPodrucjaUI geoPodUI = new GeografskaPodrucjaUI();
+        
         static void Main(string[] args)
         {
             string input;
@@ -27,7 +29,9 @@ namespace ERSProject
                 switch (input)
                 {
                     case "1":
-                        wrxml.ReadFromXML("ostv_2020_05_07.xml");
+
+                        UvozPodataka();
+
                         break;
                     case "2":
                     
@@ -38,10 +42,24 @@ namespace ERSProject
                         wrxml.IspisPodatakaOstvarenePotrosnje(date, region);
                         break;
                     case "3":
+                        GeografskaPodrucjaUI();
                         break;
                 }
 
             } while (!input.ToLower().Equals("x"));
+
+
+            void UvozPodataka()
+            {
+                
+                    wrxml.ReadFromXML();
+                  
+            }
+
+            void GeografskaPodrucjaUI()
+            {
+                geoPodUI.GeoPodUI();
+            }
         }
     }
 }

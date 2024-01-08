@@ -2,5523 +2,2643 @@
 <PROGNOZIRANO_BAZA>
   <Stavka>
     <Sat>1</Sat>
-    <Load>3190</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2881</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2639</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2527</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2552</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2648</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3758</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3707</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3496</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3477</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3552</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3721</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4057</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4093</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3720</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2981</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2739</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2627</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2652</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3141</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3753</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3436</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3652</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3190</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2881</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2639</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2527</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2552</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2648</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3758</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3707</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3496</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3477</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3552</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3721</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4057</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4093</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3720</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2981</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2739</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2627</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2652</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3141</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3753</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3436</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3652</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
     <Load>3185</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>2</Sat>
     <Load>2831</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>3</Sat>
     <Load>2619</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>4</Sat>
     <Load>2587</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>5</Sat>
     <Load>2550</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>6</Sat>
     <Load>2618</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>7</Sat>
     <Load>3041</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>8</Sat>
     <Load>3550</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>9</Sat>
     <Load>3748</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>10</Sat>
     <Load>3794</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>11</Sat>
     <Load>3783</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>12</Sat>
     <Load>3824</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>13</Sat>
     <Load>3747</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>14</Sat>
     <Load>3607</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>15</Sat>
     <Load>3548</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>16</Sat>
     <Load>3490</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>17</Sat>
     <Load>3500</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>18</Sat>
     <Load>3427</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>19</Sat>
     <Load>3572</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>20</Sat>
     <Load>3791</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>21</Sat>
     <Load>4017</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>22</Sat>
     <Load>4193</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>23</Sat>
     <Load>3907</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>24</Sat>
     <Load>3700</Load>
     <Oblast>VOJ</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>1</Sat>
     <Load>3290</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>2</Sat>
     <Load>3181</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>3</Sat>
     <Load>2939</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>4</Sat>
     <Load>2427</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>5</Sat>
     <Load>2642</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>6</Sat>
     <Load>2748</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>7</Sat>
     <Load>3441</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>8</Sat>
     <Load>3510</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>9</Sat>
     <Load>3733</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>10</Sat>
     <Load>3764</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>11</Sat>
     <Load>3383</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>12</Sat>
     <Load>3874</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>13</Sat>
     <Load>3247</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>14</Sat>
     <Load>3797</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>15</Sat>
     <Load>3148</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>16</Sat>
     <Load>3136</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>17</Sat>
     <Load>3200</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>18</Sat>
     <Load>3417</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>19</Sat>
     <Load>3692</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>20</Sat>
     <Load>3621</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>21</Sat>
     <Load>4157</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>22</Sat>
     <Load>4393</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>23</Sat>
     <Load>3997</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>24</Sat>
     <Load>3820</Load>
     <Oblast>BGD</Oblast>
+    <Document>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>56</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja />
   </Stavka>
   <Stavka>
     <Sat>1</Sat>
     <Load>3185</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>2</Sat>
     <Load>2831</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>3</Sat>
     <Load>2619</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>4</Sat>
     <Load>2587</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>5</Sat>
     <Load>2550</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>6</Sat>
     <Load>2618</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>7</Sat>
     <Load>3041</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>8</Sat>
     <Load>3550</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>9</Sat>
     <Load>3748</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>10</Sat>
     <Load>3794</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>11</Sat>
     <Load>3783</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>12</Sat>
     <Load>3824</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>13</Sat>
     <Load>3747</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>14</Sat>
     <Load>3607</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>15</Sat>
     <Load>3548</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>16</Sat>
     <Load>3490</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>17</Sat>
     <Load>3500</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>18</Sat>
     <Load>3427</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>19</Sat>
     <Load>3572</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>20</Sat>
     <Load>3791</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>21</Sat>
     <Load>4017</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>22</Sat>
     <Load>4193</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>23</Sat>
     <Load>3907</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>24</Sat>
     <Load>3700</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>1</Sat>
     <Load>3290</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>2</Sat>
     <Load>3181</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>3</Sat>
     <Load>2939</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>3</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>4</Sat>
     <Load>2427</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>5</Sat>
     <Load>2642</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>6</Sat>
     <Load>2748</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>7</Sat>
     <Load>3441</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>8</Sat>
     <Load>3510</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>9</Sat>
     <Load>3733</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>10</Sat>
     <Load>3764</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>11</Sat>
     <Load>3383</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>12</Sat>
     <Load>3874</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>13</Sat>
     <Load>3247</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>14</Sat>
     <Load>3797</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>15</Sat>
     <Load>3148</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>16</Sat>
     <Load>3136</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>17</Sat>
     <Load>3200</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>18</Sat>
     <Load>3417</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>19</Sat>
     <Load>3692</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>20</Sat>
     <Load>3621</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>21</Sat>
     <Load>4157</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>22</Sat>
     <Load>4393</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>23</Sat>
     <Load>3997</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>24</Sat>
     <Load>3820</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/5/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>16</SatUvoza>
+    <MinutUvoza>59</MinutUvoza>
+    <SekundUvoza>4</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>1</Sat>
     <Load>3185</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>2</Sat>
     <Load>2831</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>3</Sat>
     <Load>2619</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>4</Sat>
     <Load>2587</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>5</Sat>
     <Load>2550</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>6</Sat>
     <Load>2618</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>7</Sat>
     <Load>3041</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>8</Sat>
     <Load>3550</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>9</Sat>
     <Load>3748</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>10</Sat>
     <Load>3794</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>11</Sat>
     <Load>3783</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>12</Sat>
     <Load>3824</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>13</Sat>
     <Load>3747</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>14</Sat>
     <Load>3607</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>15</Sat>
     <Load>3548</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>16</Sat>
     <Load>3490</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>17</Sat>
     <Load>3500</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>18</Sat>
     <Load>3427</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>19</Sat>
     <Load>3572</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>20</Sat>
     <Load>3791</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>40</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>21</Sat>
     <Load>4017</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>22</Sat>
     <Load>4193</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>23</Sat>
     <Load>3907</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>24</Sat>
     <Load>3700</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>1</Sat>
     <Load>3290</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>2</Sat>
     <Load>3181</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>3</Sat>
     <Load>2939</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>4</Sat>
     <Load>2427</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>5</Sat>
     <Load>2642</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>6</Sat>
     <Load>2748</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>7</Sat>
     <Load>3441</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>8</Sat>
     <Load>3510</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>9</Sat>
     <Load>3733</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>10</Sat>
     <Load>3764</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>11</Sat>
     <Load>3383</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>12</Sat>
     <Load>3874</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>13</Sat>
     <Load>3247</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>14</Sat>
     <Load>3797</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>15</Sat>
     <Load>3148</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>16</Sat>
     <Load>3136</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>17</Sat>
     <Load>3200</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>18</Sat>
     <Load>3417</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>19</Sat>
     <Load>3692</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>20</Sat>
     <Load>3621</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>21</Sat>
     <Load>4157</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>22</Sat>
     <Load>4393</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>23</Sat>
     <Load>3997</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>24</Sat>
     <Load>3820</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>41</MinutUvoza>
+    <SekundUvoza>41</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>1</Sat>
     <Load>3185</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>2</Sat>
     <Load>2831</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>3</Sat>
     <Load>2619</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>4</Sat>
     <Load>2587</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>5</Sat>
     <Load>2550</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>6</Sat>
     <Load>2618</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>7</Sat>
     <Load>3041</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>8</Sat>
     <Load>3550</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>9</Sat>
     <Load>3748</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>10</Sat>
     <Load>3794</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>11</Sat>
     <Load>3783</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>12</Sat>
     <Load>3824</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>13</Sat>
     <Load>3747</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>14</Sat>
     <Load>3607</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>15</Sat>
     <Load>3548</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>16</Sat>
     <Load>3490</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>17</Sat>
     <Load>3500</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>18</Sat>
     <Load>3427</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>19</Sat>
     <Load>3572</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>20</Sat>
     <Load>3791</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>21</Sat>
     <Load>4017</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>22</Sat>
     <Load>4193</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>23</Sat>
     <Load>3907</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>24</Sat>
     <Load>3700</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>1</Sat>
     <Load>3290</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>2</Sat>
     <Load>3181</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>3</Sat>
     <Load>2939</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>4</Sat>
     <Load>2427</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>5</Sat>
     <Load>2642</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>6</Sat>
     <Load>2748</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>7</Sat>
     <Load>3441</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>8</Sat>
     <Load>3510</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>9</Sat>
     <Load>3733</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>10</Sat>
     <Load>3764</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>11</Sat>
     <Load>3383</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>12</Sat>
     <Load>3874</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>13</Sat>
     <Load>3247</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>14</Sat>
     <Load>3797</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>15</Sat>
     <Load>3148</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>16</Sat>
     <Load>3136</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>17</Sat>
     <Load>3200</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>18</Sat>
     <Load>3417</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>19</Sat>
     <Load>3692</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>20</Sat>
     <Load>3621</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>21</Sat>
     <Load>4157</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>22</Sat>
     <Load>4393</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>23</Sat>
     <Load>3997</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>24</Sat>
     <Load>3820</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>14</SatUvoza>
+    <MinutUvoza>42</MinutUvoza>
+    <SekundUvoza>11</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>1</Sat>
     <Load>3185</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>2</Sat>
     <Load>2831</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>3</Sat>
     <Load>2619</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>4</Sat>
     <Load>2587</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>5</Sat>
     <Load>2550</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>6</Sat>
     <Load>2618</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>7</Sat>
     <Load>3041</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>8</Sat>
     <Load>3550</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>9</Sat>
     <Load>3748</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>10</Sat>
     <Load>3794</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>11</Sat>
     <Load>3783</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>12</Sat>
     <Load>3824</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>13</Sat>
     <Load>3747</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>14</Sat>
     <Load>3607</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>15</Sat>
     <Load>3548</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>16</Sat>
     <Load>3490</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>17</Sat>
     <Load>3500</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>18</Sat>
     <Load>3427</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>19</Sat>
     <Load>3572</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>20</Sat>
     <Load>3791</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>21</Sat>
     <Load>4017</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>22</Sat>
     <Load>4193</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>23</Sat>
     <Load>3907</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>24</Sat>
     <Load>3700</Load>
     <Oblast>VOJ</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>1</Sat>
     <Load>3290</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>2</Sat>
     <Load>3181</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>3</Sat>
     <Load>2939</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>4</Sat>
     <Load>2427</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>5</Sat>
     <Load>2642</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>6</Sat>
     <Load>2748</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>7</Sat>
     <Load>3441</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>8</Sat>
     <Load>3510</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>9</Sat>
     <Load>3733</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>10</Sat>
     <Load>3764</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>11</Sat>
     <Load>3383</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>12</Sat>
     <Load>3874</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>13</Sat>
     <Load>3247</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>14</Sat>
     <Load>3797</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>15</Sat>
     <Load>3148</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>16</Sat>
     <Load>3136</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>17</Sat>
     <Load>3200</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>18</Sat>
     <Load>3417</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>19</Sat>
     <Load>3692</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>20</Sat>
     <Load>3621</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>21</Sat>
     <Load>4157</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>22</Sat>
     <Load>4393</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>23</Sat>
     <Load>3997</Load>
     <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>24</Sat>
     <Load>3820</Load>
     <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3185</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>2831</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2619</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2587</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2618</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3041</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3550</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3748</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3794</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3783</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3824</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3747</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3607</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3548</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3490</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3500</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3427</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3572</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3791</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4017</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4193</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3907</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3700</Load>
-    <Oblast>VOJ</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>1</Sat>
-    <Load>3290</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>2</Sat>
-    <Load>3181</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>3</Sat>
-    <Load>2939</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>4</Sat>
-    <Load>2427</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>5</Sat>
-    <Load>2642</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>6</Sat>
-    <Load>2748</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>7</Sat>
-    <Load>3441</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>8</Sat>
-    <Load>3510</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>9</Sat>
-    <Load>3733</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>10</Sat>
-    <Load>3764</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>11</Sat>
-    <Load>3383</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>12</Sat>
-    <Load>3874</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>13</Sat>
-    <Load>3247</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>14</Sat>
-    <Load>3797</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>15</Sat>
-    <Load>3148</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>16</Sat>
-    <Load>3136</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>17</Sat>
-    <Load>3200</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>18</Sat>
-    <Load>3417</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>19</Sat>
-    <Load>3692</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>20</Sat>
-    <Load>3621</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>21</Sat>
-    <Load>4157</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>22</Sat>
-    <Load>4393</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>23</Sat>
-    <Load>3997</Load>
-    <Oblast>BGD</Oblast>
-  </Stavka>
-  <Stavka>
-    <Sat>24</Sat>
-    <Load>3820</Load>
-    <Oblast>BGD</Oblast>
+    <Document>prog_2020_05_07.xml</Document>
+    <DatumUvoza>1/6/2024 12:00:00 AM</DatumUvoza>
+    <SatUvoza>15</SatUvoza>
+    <MinutUvoza>43</MinutUvoza>
+    <SekundUvoza>31</SekundUvoza>
+    <Putanja>C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source\prog_2020_05_07.xml</Putanja>
   </Stavka>
   <Stavka>
     <Sat>1</Sat>

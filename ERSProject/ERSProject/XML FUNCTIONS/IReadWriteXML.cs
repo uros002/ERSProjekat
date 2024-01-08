@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ERSProject.Classes;
 
 namespace ERSProject
 {
     public interface IReadWriteXML
     {
 
-        int ReadFromXML(string path);
+        int ReadFromXML();
 
-        void WriteToXML(string path,int id,int load, string oblast);
+        void WriteToXML(string path,IPotrosnja potrosnja);
     }
 }

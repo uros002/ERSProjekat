@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ERSProject
 {
-    class WriteReadXMLImplement : 
+    class WriteReadXMLImplement 
     {
 
     }

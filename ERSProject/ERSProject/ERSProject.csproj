@@ -58,9 +58,11 @@
     <Compile Include="ProveraNevalidnosti.cs" />
     <Compile Include="SettingUpPaths.cs" />
     <Compile Include="UnosPodrucjaUI.cs" />
+    <Compile Include="UvozPodatakaUI.cs" />
     <Compile Include="XML FUNCTIONS\IReadWriteXML.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XML FUNCTIONS\UpdateGeografskaPodrucjaDB.cs" />
     <Compile Include="XML FUNCTIONS\WriteGeografskaPodrucjaDB.cs" />
     <Compile Include="XML FUNCTIONS\WriteReadXMLImplement.cs" />
   </ItemGroup>

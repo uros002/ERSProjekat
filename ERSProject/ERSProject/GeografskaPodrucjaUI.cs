@@ -11,8 +11,13 @@ namespace ERSProject
         private PrikazGeografskihPodrucja prikaz = new PrikazGeografskihPodrucja();
         private UnosPodrucjaUI unosPodrucjaUI = new UnosPodrucjaUI();
         private IzmenaImenaUI izmena = new IzmenaImenaUI();
-        public void GeoPodUI()
+        //private WriteReadXMLImplement wrxml = new WriteReadXMLImplement();
+        public string path;
+
+        
+        public void GeoPodUI(string lokacija)
         {
+            path = lokacija;
             string input;
             do
             {
@@ -44,17 +49,17 @@ namespace ERSProject
 
         void PrikazPodrucja()
         {
-            prikaz.PrikazGeoPod();
+            prikaz.PrikazGeoPod(path);
         }
 
         void UnosPodrucja()
         {
-            unosPodrucjaUI.UnosGeografskihPodrucja();
+            unosPodrucjaUI.UnosGeografskihPodrucja(path);
         }
 
         void IzmenaImena()
         {
-            izmena.IzmenaImenaGeografskogPodrcuja();
+            izmena.IzmenaImenaGeografskogPodrcuja(path);
         }
 
     }

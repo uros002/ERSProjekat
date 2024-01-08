@@ -11,11 +11,12 @@ namespace ERSProject
     {
         public static readonly WriteReadXMLImplement wrxml = new WriteReadXMLImplement();
         public static GeografskaPodrucjaUI geoPodUI = new GeografskaPodrucjaUI();
-        public static IspisPotrosnje ispis = new IspisPotrosnje();
-        
+        public static UvozPodatakaUI uvozPodatakaUI = new UvozPodatakaUI();
+        public static string path;
         static void Main(string[] args)
         {
-            string input;
+            
+        string input;
             do
             {
                 Console.WriteLine();
@@ -26,6 +27,7 @@ namespace ERSProject
                 Console.WriteLine("X - Izlazak");
                 input = Console.ReadLine();
 
+                path = uvozPodatakaUI.path;
 
                 switch (input)
                 {
@@ -35,8 +37,12 @@ namespace ERSProject
 
                         break;
                     case "2":
-
-                        IspisPoDatumu();
+                    
+                        Console.WriteLine("Unesite datum (format: DD/MM/YYYY): ");
+                        string date = Console.ReadLine();
+                        Console.WriteLine("Unesite geografsku oblast: ");
+                        string region = Console.ReadLine();
+                        wrxml.IspisPodatakaOstvarenePotrosnje(date, region);
                         break;
                     case "3":
                         GeografskaPodrucjaUI();
@@ -45,20 +51,17 @@ namespace ERSProject
 
             } while (!input.ToLower().Equals("x"));
 
-            void IspisPoDatumu()
-            {
-                ispis.Ispisi();
-            }
+
             void UvozPodataka()
             {
-                
-                    wrxml.ReadFromXML();
+
+                uvozPodatakaUI.UvozPodataka();
                   
             }
 
             void GeografskaPodrucjaUI()
             {
-                geoPodUI.GeoPodUI();
+                geoPodUI.GeoPodUI(path);
             }
         }
     }

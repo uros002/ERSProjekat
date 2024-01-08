@@ -12,10 +12,11 @@ using System.IO;
 
 namespace ERSProject.FUNCTIONS
 {
+    
     class CheckingValidityOfFiles
     {
 
-        
+        /*
         private SettingUpPaths setUpPaths = new SettingUpPaths();
         public List<IPotrosnja> CheckingValidFiles(string document)
         {
@@ -67,6 +68,6 @@ namespace ERSProject.FUNCTIONS
 
     }
     
-        
+        */
     }
 }

@@ -12,12 +12,12 @@ namespace ERSProject
     public class PrikazGeografskihPodrucja
     {
 
-        public void PrikazGeoPod()
+        public void PrikazGeoPod(string path)
         {
-            
+            Console.WriteLine(path);
             XmlDocument xmlGeoPod = new XmlDocument();
 
-            xmlGeoPod.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\geografska_podrucja.xml");
+            xmlGeoPod.Load(path + "\\" + "geografska_podrucja.xml");
 
             XmlNodeList sirina = xmlGeoPod.GetElementsByTagName("Sirina");
             XmlNodeList naziv = xmlGeoPod.GetElementsByTagName("Naziv");

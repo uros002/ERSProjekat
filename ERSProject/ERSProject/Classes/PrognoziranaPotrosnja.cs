@@ -15,29 +15,29 @@ namespace ERSProject.Classes
 
         public string Podrucje { get; set; }
 
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
 
-        public int DateHour { get; set; }
-
-        public int DateMinute { get; set; }
-
-        public int DateSecond { get; set; }
+       public string Time { get; set; }
 
         public string Path { get; set; }
 
         public string FileName { get; set; }
 
-        public PrognoziranaPotrosnja(string path,int sat, int potrosnja, string podrucje)
+        public PrognoziranaPotrosnja(string path,string fileName, int sat, int potrosnja, string podrucje)
         {
             this.Sat = sat;
             this.Potrosnja = potrosnja;
             this.Podrucje = podrucje;
-            FileName = path;
-            Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + FileName;
-            Date = DateTime.Now.Date;
-            DateHour = DateTime.Now.Hour;
-            DateMinute = DateTime.Now.Minute;
-            DateSecond = DateTime.Now.Second;
+            FileName = fileName;
+            Path = path + "\\" + FileName;
+            string year = fileName.Split('_')[1];
+            string month = fileName.Split('_')[2];
+            string day = fileName.Split('_')[3].Split('.')[0];
+            Date = year + "/" + month + "/" + day;
+            Time = DateTime.Now.Hour.ToString() + ":" +
+             DateTime.Now.Minute.ToString() + ":" +
+            DateTime.Now.Second.ToString();
+            
         }
 
         public override string ToString()

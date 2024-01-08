@@ -188,11 +188,11 @@ namespace ERSProject
 
 
 
-            public int ReadFromXML(string path,string vrstaDatoteke)
+            public void ReadFromXML(string path,string vrstaDatoteke)
         {
             
             //List<string>Paths  = setUpPaths.SettUpPathsRead();
-            int brojac = 0;
+            
             //PublicPath = path;
             //PublicNazivFajla = vrstaDatoteke;
             //
@@ -243,7 +243,7 @@ namespace ERSProject
                     for (int i = 0; i < sat.Count; i++)
                     {
                         int tmp = Convert.ToInt32(sat[i].InnerText);
-                        brojac++;
+                        
                         OstvarenaPotrosnja nova = new OstvarenaPotrosnja(path, vrstaDatoteke, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
                         //   nova.Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + nova.FileName;
                         //nova.Path = path + "\\" + nova.FileName;
@@ -258,7 +258,7 @@ namespace ERSProject
                     for (int i = 0; i < sat.Count; i++)
                     {
                         int tmp = Convert.ToInt32(sat[i].InnerText);
-                        brojac++;
+                       
                         PrognoziranaPotrosnja nova = new PrognoziranaPotrosnja(path, vrstaDatoteke, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
                         // nova.Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + nova.FileName;
                         //nova.Path = path + "\\" + nova.FileName;
@@ -278,7 +278,7 @@ namespace ERSProject
     // Console.WriteLine(brojac.ToString());
 
 
-            return brojac;
+            
         }
 
 

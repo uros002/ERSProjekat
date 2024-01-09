@@ -14,7 +14,7 @@ namespace ERSProject
     class WriteReadXMLImplement : IReadWriteXML
     {
 
-        private SettingUpPaths setUpPaths = new SettingUpPaths();
+       
         //public  string PublicPath;
         //public  string PublicNazivFajla;
 
@@ -25,6 +25,7 @@ namespace ERSProject
         private List<PrognoziranaPotrosnja> PrognoziranaPotrosnjaLista = new List<PrognoziranaPotrosnja>();
         private WriteGeografskaPodrucjaDB RWGeografskaPodrucja = new WriteGeografskaPodrucjaDB();
         private GeografskaPodrucjaUI geoPodUI = new GeografskaPodrucjaUI();
+        private CheckingValidityOfFiles check = new CheckingValidityOfFiles();
         //private ProveraBazePodataka provera = new ProveraBazePodataka();
 
 
@@ -215,64 +216,74 @@ namespace ERSProject
                 XmlDocument xmlDoc = new XmlDocument();
             //string path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
             // xmlDoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + path);
-            try
+
+            if (check.CheckingValidity(path, vrstaDatoteke) == false)
             {
-                xmlDoc.Load(path + "\\" + vrstaDatoteke);
-                // xmlDoc.Load(path);
-                Console.WriteLine("Uspesno ste uvezli podatke iz \"" + vrstaDatoteke + "\"\n\n");
-                
+                Console.WriteLine("Podaci iz fajla \"" + vrstaDatoteke + "\" su vec uvezeni. Ne mozete dva puta uvesti podatke iz istog fajla.");
+            }
+            else
+            {
 
-                //CheckAndLogInvalidFiles(path);    
-
-                XmlNodeList sat = xmlDoc.GetElementsByTagName("SAT");
-                XmlNodeList potrosnja = xmlDoc.GetElementsByTagName("LOAD");
-                XmlNodeList oblast = xmlDoc.GetElementsByTagName("OBLAST");
-                //Console.WriteLine(Directory.GetCurrentDirectory());
-
-
-                List<IPotrosnja> ostvarenaPotrosnjaLista = new List<IPotrosnja>();
-                List<IPotrosnja> PrognoziranaPotrosnjaLista = new List<IPotrosnja>();
-
-                //Console.WriteLine(document.Split('_')[0]);
-                if (vrstaDatoteke.ToLower().Split('_')[0].Equals("ostv"))
+                try
                 {
+                    xmlDoc.Load(path + "\\" + vrstaDatoteke);
+                    // xmlDoc.Load(path);
+                    Console.WriteLine("Uspesno ste uvezli podatke iz \"" + vrstaDatoteke + "\"\n\n");
 
 
+                    //CheckAndLogInvalidFiles(path);    
 
-                    //Console.WriteLine("AAAAAAAAAAAAAAAAAAAA");
-                    for (int i = 0; i < sat.Count; i++)
+                    XmlNodeList sat = xmlDoc.GetElementsByTagName("SAT");
+                    XmlNodeList potrosnja = xmlDoc.GetElementsByTagName("LOAD");
+                    XmlNodeList oblast = xmlDoc.GetElementsByTagName("OBLAST");
+                    //Console.WriteLine(Directory.GetCurrentDirectory());
+
+
+                    List<IPotrosnja> ostvarenaPotrosnjaLista = new List<IPotrosnja>();
+                    List<IPotrosnja> PrognoziranaPotrosnjaLista = new List<IPotrosnja>();
+
+                    //Console.WriteLine(document.Split('_')[0]);
+                    if (vrstaDatoteke.ToLower().Split('_')[0].Equals("ostv"))
                     {
-                        int tmp = Convert.ToInt32(sat[i].InnerText);
-                        
-                        OstvarenaPotrosnja nova = new OstvarenaPotrosnja(path, vrstaDatoteke, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
-                        //   nova.Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + nova.FileName;
-                        //nova.Path = path + "\\" + nova.FileName;
 
-                        //ostvarenaPotrosnjaLista = checking.CheckingValidFiles(path.Split('_')[0] + "_potrosnja.xml");
-                        WriteToXML(path, vrstaDatoteke, nova);
 
+
+                        //Console.WriteLine("AAAAAAAAAAAAAAAAAAAA");
+                        for (int i = 0; i < sat.Count; i++)
+                        {
+                            int tmp = Convert.ToInt32(sat[i].InnerText);
+
+                            OstvarenaPotrosnja nova = new OstvarenaPotrosnja(path, vrstaDatoteke, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
+                            //   nova.Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + nova.FileName;
+                            //nova.Path = path + "\\" + nova.FileName;
+
+                            //ostvarenaPotrosnjaLista = checking.CheckingValidFiles(path.Split('_')[0] + "_potrosnja.xml");
+                            WriteToXML(path, vrstaDatoteke, nova);
+
+                        }
+                    }
+                    else if (vrstaDatoteke.ToLower().Split('_')[0].Equals("prog"))
+                    {
+                        for (int i = 0; i < sat.Count; i++)
+                        {
+                            int tmp = Convert.ToInt32(sat[i].InnerText);
+
+                            PrognoziranaPotrosnja nova = new PrognoziranaPotrosnja(path, vrstaDatoteke, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
+                            // nova.Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + nova.FileName;
+                            //nova.Path = path + "\\" + nova.FileName;
+                            WriteToXML(path, vrstaDatoteke, nova);
+                            //PrognoziranaPotrosnjaLista = checking.CheckingValidFiles(path.Split('_')[0].ToString() + "_potrosnja.xml");
+                            //int existsFlag = 0;
+
+
+
+                        }
                     }
                 }
-                else if (vrstaDatoteke.ToLower().Split('_')[0].Equals("prog"))
+                catch (Exception ex)
                 {
-                    for (int i = 0; i < sat.Count; i++)
-                    {
-                        int tmp = Convert.ToInt32(sat[i].InnerText);
-                       
-                        PrognoziranaPotrosnja nova = new PrognoziranaPotrosnja(path, vrstaDatoteke, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
-                        // nova.Path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + nova.FileName;
-                        //nova.Path = path + "\\" + nova.FileName;
-                        WriteToXML(path, vrstaDatoteke, nova);
-                        //PrognoziranaPotrosnjaLista = checking.CheckingValidFiles(path.Split('_')[0].ToString() + "_potrosnja.xml");
-                        //int existsFlag = 0;
-
-
-
-                    }
+                    Console.WriteLine("Nepostojeci fajl molimo unesite opet!" + ex.Message);
                 }
-            }catch(Exception ex)
-            {
-                Console.WriteLine("Nepostojeci fajl molimo unesite opet!" + ex.Message);
             }
        // }
     // Console.WriteLine(brojac.ToString());

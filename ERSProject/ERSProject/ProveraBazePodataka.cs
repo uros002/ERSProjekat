@@ -16,7 +16,7 @@ namespace ERSProject
             
             
                 XmlDocument xmlDoc = new XmlDocument();
-                string path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
+                string path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\"; //pitaj
                 xmlDoc.Load(path + document);
                 
                 if(xmlDoc.DocumentElement.ChildNodes.Count == 0)

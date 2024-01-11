@@ -18,37 +18,40 @@ namespace ERSProject
         {
             
         string input;
-            Console.WriteLine("Unesite vasu putanju do Source foldera!");
-            path = Console.ReadLine();
-            Console.WriteLine("\n");
-            do
-            {
-                Console.WriteLine();
-                Console.WriteLine("Odaberite opciju:");
-                Console.WriteLine("1 - Uvoz podataka");
-                Console.WriteLine("2 - Ispis podataka o ostvarenoj potrosnji");
-                Console.WriteLine("3 - Evidencija geografskih podrucja");
-                Console.WriteLine("X - Izlazak");
-                input = Console.ReadLine();
+            
+                    
+                    Console.WriteLine("Unesite vasu putanju do Source foldera!");
+                    path = Console.ReadLine();
+                    Console.WriteLine("\n");
+                    do
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine("Odaberite opciju:");
+                        Console.WriteLine("1 - Uvoz podataka");
+                        Console.WriteLine("2 - Ispis podataka o ostvarenoj potrosnji");
+                        Console.WriteLine("3 - Evidencija geografskih podrucja");
+                        Console.WriteLine("X - Izlazak");
+                        input = Console.ReadLine();
 
-                //path = uvozPodatakaUI.path;
+                        //path = uvozPodatakaUI.path;
 
-                switch (input)
-                {
-                    case "1":
+                        switch (input)
+                        {
+                            case "1":
 
-                        UvozPodataka();
+                                UvozPodataka();
 
-                        break;
-                    case "2":
-                        IspisPoDatumu();
-                        break;
-                    case "3":
-                        GeografskaPodrucjaUI();
-                        break;
-                }
+                                break;
+                            case "2":
+                                IspisPoDatumu();
+                                break;
+                            case "3":
+                                GeografskaPodrucjaUI();
+                                break;
+                        }
 
-            } while (!input.ToLower().Equals("x"));
+                    } while (!input.ToLower().Equals("x"));
+                
 
             void IspisPoDatumu()
             {

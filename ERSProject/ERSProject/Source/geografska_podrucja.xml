@@ -2,30 +2,10 @@
 <GEOGRAFSKA_PODRUCJA>
   <Podrucje>
     <Sirina>VOJ</Sirina>
-    <Naziv>Vojvodina</Naziv>
+    <Naziv>VOJ</Naziv>
   </Podrucje>
   <Podrucje>
     <Sirina>BGD</Sirina>
-    <Naziv>Beograd</Naziv>
-  </Podrucje>
-  <Podrucje>
-    <Sirina>SEMB</Sirina>
-    <Naziv>Semberija</Naziv>
-  </Podrucje>
-  <Podrucje>
-    <Sirina>HERCG</Sirina>
-    <Naziv>Herceg</Naziv>
-  </Podrucje>
-  <Podrucje>
-    <Sirina>NBG</Sirina>
-    <Naziv>Novi Beograd</Naziv>
-  </Podrucje>
-  <Podrucje>
-    <Sirina>PRLZ</Sirina>
-    <Naziv>Perlez</Naziv>
-  </Podrucje>
-  <Podrucje>
-    <Sirina>NS</Sirina>
-    <Naziv>Novi Sad</Naziv>
+    <Naziv>BGD</Naziv>
   </Podrucje>
 </GEOGRAFSKA_PODRUCJA>

@@ -57,6 +57,7 @@
     <Compile Include="IspisPotrosnje.cs" />
     <Compile Include="ProveraNevalidnosti.cs" />
     <Compile Include="UvozPodatakaUI.cs" />
+    <Compile Include="XML FUNCTIONS\DeleteFromXML.cs" />
     <Compile Include="XML FUNCTIONS\IReadWriteXML.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

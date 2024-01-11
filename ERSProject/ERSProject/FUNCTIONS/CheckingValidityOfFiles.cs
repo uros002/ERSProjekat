@@ -13,7 +13,7 @@ using System.IO;
 namespace ERSProject.FUNCTIONS
 {
     
-    class CheckingValidityOfFiles
+    public class CheckingValidityOfFiles
     {
 
         public int CheckingValidity(string path,string nazivDatoteke)

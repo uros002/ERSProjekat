@@ -21,10 +21,17 @@ namespace ERSProject
 
             XmlNodeList sirina = xmlGeoPod.GetElementsByTagName("Sirina");
             XmlNodeList naziv = xmlGeoPod.GetElementsByTagName("Naziv");
-            Console.WriteLine("   SIFRA\tNAZIV");
-            for (int i = 0; i < sirina.Count; i++)
+            if (sirina.Count == 0)
             {
-                Console.WriteLine(i.ToString() + ". " + sirina[i].InnerText +"\t" + naziv[i].InnerText);
+                Console.WriteLine("\nMolimo prvo uvezite neki od fajlova!\n");
+            }
+            else
+            {
+                Console.WriteLine("   SIFRA\tNAZIV");
+                for (int i = 0; i < sirina.Count; i++)
+                {
+                    Console.WriteLine(i.ToString() + ". " + sirina[i].InnerText + "\t\t" + naziv[i].InnerText);
+                }
             }
             
         }

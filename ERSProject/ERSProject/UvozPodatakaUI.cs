@@ -9,12 +9,12 @@ namespace ERSProject
 {
     public class UvozPodatakaUI
     {
-        public string path;
+        //public string path;
         WriteReadXMLImplement wrxml = new WriteReadXMLImplement();
-        public void UvozPodataka()
+        public void UvozPodataka(string path)
         {
-            Console.WriteLine("Unesite vasu putanju do Source foldera!");
-             path = Console.ReadLine();
+            //Console.WriteLine("Unesite vasu putanju do Source foldera!");
+             //path = Console.ReadLine();
             Console.WriteLine("Unesite naziv fajla iz kog zelite da uvezete podatke( ime fajla bi trebalo da bude tipa ostv/prog zatim datum merenja podatak u formatu YYYY_MM_DD odvojeno sa donjom crtom)!");
             string nazivFajla = Console.ReadLine();
 

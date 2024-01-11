@@ -60,58 +60,56 @@ namespace ERSProject
                 List<IPotrosnja> ostvarenaPotrosnjaLista = new List<IPotrosnja>();
                 List<IPotrosnja> PrognoziranaPotrosnjaLista = new List<IPotrosnja>();
 
-                
-
-                try
-
+                if (proveraNev.CheckAndLogInvalidFiles(path, vrstaDatoteke) == false)
                 {
-                    xmlDoc.Load(path + "\\" + vrstaDatoteke);
-                    
-                    Console.WriteLine("Uspesno ste uvezli podatke iz \"" + vrstaDatoteke + "\"\n\n");
+                    Console.WriteLine("Podatak nije validan");
+                }
+                else
+                {
 
+                    try
 
-                       
-
-                
-
-                   
-                    if (vrstaDatoteke.ToLower().Split('_')[0].Equals("ostv"))
                     {
+                        xmlDoc.Load(path + "\\" + vrstaDatoteke);
+
+                        Console.WriteLine("Uspesno ste uvezli podatke iz \"" + vrstaDatoteke + "\"\n\n");
 
 
-                       
-                        proveraNev.CheckAndLogInvalidFiles(path, vrstaDatoteke);
 
 
-
-                        //Console.WriteLine("AAAAAAAAAAAAAAAAAAAA");
-                        for (int i = 0; i < sat.Count; i++)
+                        if (vrstaDatoteke.ToLower().Split('_')[0].Equals("ostv"))
                         {
-                            int tmp = Convert.ToInt32(sat[i].InnerText);
 
-                            OstvarenaPotrosnja nova = new OstvarenaPotrosnja(path, vrstaDatoteke, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
-                           
-                            WriteToXML(path, vrstaDatoteke, nova);
-                           proveraNev.CheckAndLogInvalidFiles(path, vrstaDatoteke);
+
+                            //Console.WriteLine("AAAAAAAAAAAAAAAAAAAA");
+                            for (int i = 0; i < sat.Count; i++)
+                            {
+                                int tmp = Convert.ToInt32(sat[i].InnerText);
+
+                                OstvarenaPotrosnja nova = new OstvarenaPotrosnja(path, vrstaDatoteke, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
+
+                                WriteToXML(path, vrstaDatoteke, nova);
+
                             }
-                    }
-                    else if (vrstaDatoteke.ToLower().Split('_')[0].Equals("prog"))
-                    {
-                        for (int i = 0; i < sat.Count; i++)
+                        }
+                        else if (vrstaDatoteke.ToLower().Split('_')[0].Equals("prog"))
                         {
-                            int tmp = Convert.ToInt32(sat[i].InnerText);
+                            for (int i = 0; i < sat.Count; i++)
+                            {
+                                int tmp = Convert.ToInt32(sat[i].InnerText);
 
-                            PrognoziranaPotrosnja nova = new PrognoziranaPotrosnja(path, vrstaDatoteke, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
-                           
-                            WriteToXML(path, vrstaDatoteke, nova);
+                                PrognoziranaPotrosnja nova = new PrognoziranaPotrosnja(path, vrstaDatoteke, Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
+
+                                WriteToXML(path, vrstaDatoteke, nova);
+
+                            }
 
                         }
-
                     }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Nepostojeci fajl molimo unesite opet!" + ex.Message);
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Nepostojeci fajl molimo unesite opet!" + ex.Message);
+                    }
                 }
             }
 
@@ -160,7 +158,7 @@ namespace ERSProject
                 Stavka.AppendChild(FileName);
 
 
-                XmlNode Date = xmldoc.CreateElement("DatumUvoza");
+                XmlNode Date = xmldoc.CreateElement("DatumMerenja");
                 Date.InnerText = potrosnja.Date.ToString();
                 Stavka.AppendChild(Date);
 

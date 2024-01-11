@@ -41,7 +41,7 @@ namespace ERSProject
         }
 
 
-        public void CheckAndLogInvalidFiles(string path,string document)
+        public bool CheckAndLogInvalidFiles(string path,string document)
         {
             XmlDocument xmlDoc = new XmlDocument();
             //  xmlDoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + document);
@@ -49,7 +49,12 @@ namespace ERSProject
 
             if (!IsValid(xmlDoc))
             {
-                LogInvalidFile(path,document, xmlDoc);
+                LogInvalidFile(path, document, xmlDoc);
+                return false;
+            }
+            else
+            {
+                return true; 
             }
             
         }

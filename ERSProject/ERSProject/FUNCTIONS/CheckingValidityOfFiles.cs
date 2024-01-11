@@ -21,18 +21,7 @@ namespace ERSProject.FUNCTIONS
             try
             {
                 XmlDocument xmlDoc = new XmlDocument();
-                string baza = "";
-                /*
-                if (nazivDatoteke.Split('_')[0].Equals("ostv"))
-                {
-                    baza = "ostv_potrosnja.xml";
-                }
-                else if (nazivDatoteke.Split('_')[0].Equals("prog"))
-                {
-                    baza = "prog_potrosnja.xml";
-                }
-                */
-                //xmlDoc.Load(path + "\\" + baza);
+                
                 xmlDoc.Load(path + "\\" + nazivDatoteke.Split('_')[0] + "_potrosnja.xml");
                 XmlNodeList fileName = xmlDoc.GetElementsByTagName("Document");
                 for (int i = 0; i < fileName.Count; i++)

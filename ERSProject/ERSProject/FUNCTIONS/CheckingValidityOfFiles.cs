@@ -16,58 +16,29 @@ namespace ERSProject.FUNCTIONS
     class CheckingValidityOfFiles
     {
 
-        /*
-        private SettingUpPaths setUpPaths = new SettingUpPaths();
-        public List<IPotrosnja> CheckingValidFiles(string document)
+        public bool CheckingValidity(string path,string nazivDatoteke)
         {
-            List<string> Paths = setUpPaths.SettUpPathsRead();
             
-           
-                XmlDocument xmlDoc = new XmlDocument();
-                string path = "C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\";
-                 xmlDoc.Load(path + document);
-                //xmlDoc.Load(path);
-                XmlNodeList sat = xmlDoc.GetElementsByTagName("SAT");
-                XmlNodeList potrosnja = xmlDoc.GetElementsByTagName("LOAD");
-                XmlNodeList oblast = xmlDoc.GetElementsByTagName("OBLAST");
-
-                List<IPotrosnja> PotrosnjaLista = new List<IPotrosnja>();
+            XmlDocument xmlDoc = new XmlDocument();
+            string baza = "";
+            if (nazivDatoteke.Split('_')[0].Equals("ostv"))
+            {
+                baza = "ostv_potrosnja.xml";
+            }else if (nazivDatoteke.Split('_')[0].Equals("prog"))
+            {
+                baza = "prog_potrosnja.xml";
+            }
+            xmlDoc.Load(path + "\\" + baza);
+            XmlNodeList fileName = xmlDoc.GetElementsByTagName("Document");
+            for(int i = 0; i < fileName.Count; i++)
+            {
                 
-
-                //Console.WriteLine(document.Split('_')[0]);
-                if (document.Split('_')[0].Equals("ostv"))
+                if (fileName[i].InnerText.Equals(nazivDatoteke))
                 {
-                    for (int i = 0; i < sat.Count; i++)
-                    {
-                        int tmp = Convert.ToInt32(sat[i].InnerText);
-                        
-                        OstvarenaPotrosnja nova = new OstvarenaPotrosnja(path,Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
-                    PotrosnjaLista.Add(nova);
-                    Console.WriteLine(PotrosnjaLista.Count.ToString());
-                        
-                    }
-
+                    return false;
                 }
-                else if (document.Split('_')[0].Equals("prog"))
-                {
-                    for (int i = 0; i < sat.Count; i++)
-                    {
-                        int tmp = Convert.ToInt32(sat[i].InnerText);
-                        
-                        PrognoziranaPotrosnja nova = new PrognoziranaPotrosnja(path,Convert.ToInt32(sat[i].InnerText), Convert.ToInt32(potrosnja[i].InnerText), oblast[i].InnerText.ToString());
-                    PotrosnjaLista.Add(nova);
-
-                        
-                    }
-
-                }
-
-            return PotrosnjaLista;
-            
-        
-
-    }
-    
-        */
+            }
+            return true;
+        }
     }
 }

@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.33328.57
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERSProject", "ERSProject\ERSProject.csproj", "{A88A3C68-DD11-4C24-B737-232707C8F4DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37788A67-AF0A-4A22-8169-1ADED87570BA}"
+	ProjectSection(SolutionItems) = preProject
+		ERSProject\Source\podaci.csv = ERSProject\Source\podaci.csv
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{9B714530-626E-499C-B62E-7FA699ECF5D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{A88A3C68-DD11-4C24-B737-232707C8F4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A88A3C68-DD11-4C24-B737-232707C8F4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A88A3C68-DD11-4C24-B737-232707C8F4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B714530-626E-499C-B62E-7FA699ECF5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B714530-626E-499C-B62E-7FA699ECF5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B714530-626E-499C-B62E-7FA699ECF5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B714530-626E-499C-B62E-7FA699ECF5D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,10 +15,10 @@ namespace ERSProject.Classes
         public int minuti;
         public int sekunde;
 
-        public NeispravniPodaci(string filePath)
+        public NeispravniPodaci(string path,string filePath)
         {
             imeFajla = Path.GetFileName(filePath);
-            lokacija = "C:\\Users\\Win10\\Documents\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\"+filePath;
+            lokacija = path+"\\"+filePath;
             DateTime vreme = DateTime.Now;
             sat = vreme.Hour;
             minuti = vreme.Minute;

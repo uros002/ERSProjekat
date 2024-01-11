@@ -51,6 +51,7 @@ namespace ERSProject
             {
                 LogInvalidFile(path,document, xmlDoc);
             }
+            
         }
 
 
@@ -63,12 +64,14 @@ namespace ERSProject
             XmlNodeList oblast = xmlDoc.GetElementsByTagName("OBLAST");
 
             // Provera broja sati u danu
-            int brojSatiUDanu = 24;  // Možete prilagoditi ovo prema potrebi
+            int brojSatiUDanu = 24;  
 
-            if (sat.Count < brojSatiUDanu - 1 || sat.Count > brojSatiUDanu + 1)
+           /* if (sat.Count > brojSatiUDanu)
             {
+                Console.WriteLine($"Neispravan broj sati u danu. Broj sati u dokumentu: {sat.Count}, Očekivano: {brojSatiUDanu}");
+
                 return false;
-            }
+            }*/
 
             // Provera formata i unosa za svaku oblast
             Dictionary<string, int> oblasti = new Dictionary<string, int>();
@@ -80,9 +83,14 @@ namespace ERSProject
                 if (!int.TryParse(sat[i].InnerText, out satVrednost) ||
                     !int.TryParse(potrosnja[i].InnerText, out potrosnjaVrednost))
                 {
+                    Console.WriteLine($"Neispravan format za red {i + 1}. SAT: {sat[i].InnerText}, LOAD: {potrosnja[i].InnerText}");
                     return false;  // Ako format sati ili potrošnje nije ispravan
                 }
-
+                if (satVrednost > 24)
+                {
+                    Console.WriteLine($"Neispravna vrednost za SAT u redu {i + 1}. SAT: {satVrednost}");
+                    return false;
+                }
                 string oblastVrednost = oblast[i].InnerText;
 
                 // Provera unosa za svaku oblast
@@ -99,8 +107,9 @@ namespace ERSProject
             // Provera da li svaka oblast ima tačno onoliko redova koliko ima sati u danu
             foreach (var pair in oblasti)
             {
-                if (pair.Value != brojSatiUDanu)
+                if (pair.Value < brojSatiUDanu-1 || pair.Value>brojSatiUDanu+1)
                 {
+                    Console.WriteLine($"Neispravan broj redova za oblast {pair.Key}. Broj redova: {pair.Value}");
                     return false;
                 }
             }

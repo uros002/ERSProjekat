@@ -21,7 +21,7 @@ namespace ERSProject.FUNCTIONS
             try
             {
                 XmlDocument xmlDoc = new XmlDocument();
-                string baza = "";
+               // string baza = "";
                 /*
                 if (nazivDatoteke.Split('_')[0].Equals("ostv"))
                 {

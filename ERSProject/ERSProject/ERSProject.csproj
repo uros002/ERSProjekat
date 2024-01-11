@@ -54,7 +54,9 @@
     <Compile Include="IspisPotrosnje.cs" />
     <Compile Include="IzmenaImenaUI.cs" />
     <Compile Include="PrikazGeografskihPodrucja.cs" />
+    <Compile Include="ProveraBaza.cs" />
     <Compile Include="ProveraNevalidnosti.cs" />
+    <Compile Include="RelativnoOdstupanje.cs" />
     <Compile Include="UnosPodrucjaUI.cs" />
     <Compile Include="UvozPodatakaUI.cs" />
     <Compile Include="XML FUNCTIONS\IReadWriteXML.cs" />

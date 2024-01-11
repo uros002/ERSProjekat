@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ERSProject.Classes
 {
-    class PrognoziranaPotrosnja : IPotrosnja
+   public class PrognoziranaPotrosnja : IPotrosnja
     {
         
         public int Sat { get; set; }

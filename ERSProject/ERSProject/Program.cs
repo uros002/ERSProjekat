@@ -18,6 +18,9 @@ namespace ERSProject
         {
             
         string input;
+            Console.WriteLine("Unesite vasu putanju do Source foldera!");
+            path = Console.ReadLine();
+            Console.WriteLine("\n");
             do
             {
                 Console.WriteLine();
@@ -28,7 +31,7 @@ namespace ERSProject
                 Console.WriteLine("X - Izlazak");
                 input = Console.ReadLine();
 
-                path = uvozPodatakaUI.path;
+                //path = uvozPodatakaUI.path;
 
                 switch (input)
                 {
@@ -55,7 +58,7 @@ namespace ERSProject
             void UvozPodataka()
             {
 
-                uvozPodatakaUI.UvozPodataka();
+                uvozPodatakaUI.UvozPodataka(path);
                   
             }
 

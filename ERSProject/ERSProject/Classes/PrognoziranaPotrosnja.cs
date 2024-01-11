@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ERSProject.Classes
 {
-    class PrognoziranaPotrosnja : IPotrosnja
+   public class PrognoziranaPotrosnja : IPotrosnja
     {
         
         public int Sat { get; set; }
@@ -38,18 +38,6 @@ namespace ERSProject.Classes
              DateTime.Now.Minute.ToString() + ":" +
             DateTime.Now.Second.ToString();
             
-        }
-
-        public override string ToString()
-        {
-            return string.Format("{0,-6} {1,-15} {2,-15}",
-                Sat, Potrosnja, Podrucje);
-        }
-
-        public static string GetFormattedHeader()
-        {
-            return string.Format("{0,-6} {1,-15} {2,-15} ",
-                "SAT", "POTROSNJA", "PODRUCJE");
         }
     }
 }

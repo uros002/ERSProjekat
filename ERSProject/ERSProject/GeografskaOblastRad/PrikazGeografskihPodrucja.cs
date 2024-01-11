@@ -14,12 +14,12 @@ namespace ERSProject
 
         public void PrikazGeoPod(string path)
         {
-            Console.WriteLine(path);
+            
             XmlDocument xmlGeoPod = new XmlDocument();
 
             xmlGeoPod.Load(path + "\\" + "geografska_podrucja.xml");
 
-            XmlNodeList sirina = xmlGeoPod.GetElementsByTagName("Sirina");
+            XmlNodeList sirina = xmlGeoPod.GetElementsByTagName("Sirina"); 
             XmlNodeList naziv = xmlGeoPod.GetElementsByTagName("Naziv");
             if (sirina.Count == 0)
             {
@@ -32,6 +32,7 @@ namespace ERSProject
                 {
                     Console.WriteLine(i.ToString() + ". " + sirina[i].InnerText + "\t\t" + naziv[i].InnerText);
                 }
+
             }
             
         }

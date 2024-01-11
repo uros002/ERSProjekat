@@ -13,7 +13,7 @@ namespace ERSProject
         public void Ispisi(string path)
         {
             
-            Console.WriteLine("Unesite datum (format: DD/MM/YYYY): ");
+            Console.WriteLine("Unesite datum (format: YYYY/MM/DD): ");
             string date = Console.ReadLine();
             Console.WriteLine("Unesite geografsku oblast: ");
             string region = Console.ReadLine();

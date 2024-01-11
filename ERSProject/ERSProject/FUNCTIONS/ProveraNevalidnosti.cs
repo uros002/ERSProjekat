@@ -20,7 +20,6 @@ namespace ERSProject
 
 
             XmlNode invalidFileNode = invalidXmlDoc.CreateElement("InvalidFile");
-            // invalidXmlDoc.DocumentElement.AppendChild(invalidFileNode);
 
             XmlNode fileNameNode = invalidXmlDoc.CreateElement("FileName");
             fileNameNode.InnerText = neispravniPodaci.imeFajla;
@@ -44,7 +43,7 @@ namespace ERSProject
         public bool CheckAndLogInvalidFiles(string path,string document)
         {
             XmlDocument xmlDoc = new XmlDocument();
-            //  xmlDoc.Load("C:\\Users\\User\\OneDrive\\Dokumenti\\GitHub\\ERSProjekat\\ERSProject\\ERSProject\\Source\\" + document);
+            
             xmlDoc.Load(path+"\\" + document);
 
             if (!IsValid(xmlDoc))
@@ -54,9 +53,8 @@ namespace ERSProject
             }
             else
             {
-                return true; 
+                return true;
             }
-            
         }
 
 
@@ -71,13 +69,7 @@ namespace ERSProject
             // Provera broja sati u danu
             int brojSatiUDanu = 24;  
 
-           /* if (sat.Count > brojSatiUDanu)
-            {
-                Console.WriteLine($"Neispravan broj sati u danu. Broj sati u dokumentu: {sat.Count}, Očekivano: {brojSatiUDanu}");
-
-                return false;
-            }*/
-
+           
             // Provera formata i unosa za svaku oblast
             Dictionary<string, int> oblasti = new Dictionary<string, int>();
 

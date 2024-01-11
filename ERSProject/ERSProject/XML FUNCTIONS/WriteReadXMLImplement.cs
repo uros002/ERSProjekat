@@ -46,16 +46,11 @@ namespace ERSProject
                 Console.WriteLine("Molimo unesite ispravno postojecu datoteku.");
             }
             else
-            {
-
-
-                
+            {            
 
                 XmlNodeList sat = xmlDoc.GetElementsByTagName("SAT");
                 XmlNodeList potrosnja = xmlDoc.GetElementsByTagName("LOAD");
                 XmlNodeList oblast = xmlDoc.GetElementsByTagName("OBLAST");
-               
-
 
                 List<IPotrosnja> ostvarenaPotrosnjaLista = new List<IPotrosnja>();
                 List<IPotrosnja> PrognoziranaPotrosnjaLista = new List<IPotrosnja>();
@@ -74,14 +69,9 @@ namespace ERSProject
 
                         Console.WriteLine("Uspesno ste uvezli podatke iz \"" + vrstaDatoteke + "\"\n\n");
 
-
-
-
                         if (vrstaDatoteke.ToLower().Split('_')[0].Equals("ostv"))
                         {
 
-
-                            //Console.WriteLine("AAAAAAAAAAAAAAAAAAAA");
                             for (int i = 0; i < sat.Count; i++)
                             {
                                 int tmp = Convert.ToInt32(sat[i].InnerText);
@@ -122,9 +112,8 @@ namespace ERSProject
         {
            
             string pathWrite = "";
-            
            
-                XmlDocument xmldoc = new XmlDocument();
+            XmlDocument xmldoc = new XmlDocument();
             string typeOfBase = nazivDatoteke.Split('_')[0];
             if (typeOfBase.Equals("ostv"))
             {
@@ -137,8 +126,8 @@ namespace ERSProject
 
             
                
-                 xmldoc.Load(path + "\\" + pathWrite);
-                XmlNode Stavka = xmldoc.CreateElement("Stavka");
+               xmldoc.Load(path + "\\" + pathWrite);
+               XmlNode Stavka = xmldoc.CreateElement("Stavka");
 
 
                 XmlNode Sat = xmldoc.CreateElement("Sat");

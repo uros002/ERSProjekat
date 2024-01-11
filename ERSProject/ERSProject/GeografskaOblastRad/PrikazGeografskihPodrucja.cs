@@ -14,7 +14,7 @@ namespace ERSProject
 
         public void PrikazGeoPod(string path)
         {
-            Console.WriteLine(path);
+            
             XmlDocument xmlGeoPod = new XmlDocument();
 
             xmlGeoPod.Load(path + "\\" + "geografska_podrucja.xml");

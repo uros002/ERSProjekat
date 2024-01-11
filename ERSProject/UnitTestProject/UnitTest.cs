@@ -11,7 +11,8 @@ namespace UnitTestProject
     [TestClass]
     public class UnitTest
     {
-        private string path = @"C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source";
+        //private string path = @"C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source";
+        private string path = @"C:\Users\Win10\Documents\GitHub\ERSProjekat\ERSProject\ERSProject\Source";
         
         [TestMethod]
         public void DodavanjePostojeceGeografskeOblasti()
@@ -44,6 +45,13 @@ namespace UnitTestProject
             DeleteFromXML del = new DeleteFromXML();
             del.Delete(path, "TEST");
             
+        }
+        [TestMethod]
+        public void RelativnoOdstupanjeTest()
+        {
+            RelativnoOdstupanje relativno = new RelativnoOdstupanje();
+            double Result= relativno.IzracunajRelativnoOdstupanje(2,3);
+            Assert.AreEqual(Result,50);
         }
     }
 }

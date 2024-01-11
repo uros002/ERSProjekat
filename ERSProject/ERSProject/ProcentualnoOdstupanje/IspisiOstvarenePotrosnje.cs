@@ -75,7 +75,7 @@ namespace ERSProject
             using (StreamWriter writer = new StreamWriter(putanjaZaCsv))
             {
                 writer.WriteLine("Sat,\tPrognozirana,\tOstvarena,\tRel. Odstupanje");
-                Console.WriteLine("Sat,\t\tPrognozirana,\t\tOstvarena,\t\tRel. Odstupanje");
+                Console.WriteLine("Sat,\tPrognozirana,\tOstvarena,\tRel. Odstupanje");
 
                 for (int i = 0; i < prognoziranaPotrosnjaLista.Count; i++)
                 {

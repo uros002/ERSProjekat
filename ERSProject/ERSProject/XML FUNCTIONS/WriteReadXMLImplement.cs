@@ -96,14 +96,14 @@ namespace ERSProject
 
                     //CheckAndLogInvalidFiles(path);    
 
-                    XmlNodeList sat = xmlDoc.GetElementsByTagName("SAT");
-                    XmlNodeList potrosnja = xmlDoc.GetElementsByTagName("LOAD");
-                    XmlNodeList oblast = xmlDoc.GetElementsByTagName("OBLAST");
+                //    XmlNodeList sat = xmlDoc.GetElementsByTagName("SAT");
+                  //  XmlNodeList potrosnja = xmlDoc.GetElementsByTagName("LOAD");
+                    //XmlNodeList oblast = xmlDoc.GetElementsByTagName("OBLAST");
                     //Console.WriteLine(Directory.GetCurrentDirectory());
 
 
-                    List<IPotrosnja> ostvarenaPotrosnjaLista = new List<IPotrosnja>();
-                    List<IPotrosnja> PrognoziranaPotrosnjaLista = new List<IPotrosnja>();
+                    //List<IPotrosnja> ostvarenaPotrosnjaLista = new List<IPotrosnja>();
+                    //List<IPotrosnja> PrognoziranaPotrosnjaLista = new List<IPotrosnja>();
 
                     //Console.WriteLine(document.Split('_')[0]);
                     if (vrstaDatoteke.ToLower().Split('_')[0].Equals("ostv"))
@@ -111,7 +111,7 @@ namespace ERSProject
 
 
                         //ostvarenaPotrosnjaLista = checking.CheckingValidFiles(path.Split('_')[0] + "_potrosnja.xml");
-                        WriteToXML(path, vrstaDatoteke, nova);
+                       // WriteToXML(path, vrstaDatoteke, nova);
                         proveraNev.CheckAndLogInvalidFiles(path, vrstaDatoteke);
 
 
@@ -127,8 +127,8 @@ namespace ERSProject
 
                             //ostvarenaPotrosnjaLista = checking.CheckingValidFiles(path.Split('_')[0] + "_potrosnja.xml");
                             WriteToXML(path, vrstaDatoteke, nova);
-
-                        }
+                           proveraNev.CheckAndLogInvalidFiles(path, vrstaDatoteke);
+                            }
                     }
                     else if (vrstaDatoteke.ToLower().Split('_')[0].Equals("prog"))
                     {

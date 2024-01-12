@@ -11,8 +11,8 @@ namespace UnitTestProject
     [TestClass]
     public class UnitTest
     {
-        //private string path = @"C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source";
-        private string path = @"C:\Users\Win10\Documents\GitHub\ERSProjekat\ERSProject\ERSProject\Source";
+        private string path = @"C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\ERSProject\Source";
+        //private string path = @"C:\Users\Win10\Documents\GitHub\ERSProjekat\ERSProject\ERSProject\Source";
         
         [TestMethod]
         public void DodavanjePostojeceGeografskeOblasti()

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ERSProject.Classes
 {
-    public class GeografskaPodrucja
+    public class GeografskaPodrucja : IGeografskaPodrucja
     {
 
         public string NazivPodrucja { get; set; }

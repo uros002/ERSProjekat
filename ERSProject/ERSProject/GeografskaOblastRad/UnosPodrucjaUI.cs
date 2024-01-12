@@ -18,7 +18,7 @@ namespace ERSProject
             Console.WriteLine("\nUnesite naziv podrucja");
             string naziv = Console.ReadLine();
 
-            GeografskaPodrucja geoPod = new GeografskaPodrucja(naziv, sifra);
+            GeografskaPodrucja geoPod = new GeografskaPodrucja(naziv, sifra.ToUpper());
 
             int exists = RWGeografskaPodrucja.ReadGeografskaPodrucja(geoPod,path);
             if (exists != 0 )

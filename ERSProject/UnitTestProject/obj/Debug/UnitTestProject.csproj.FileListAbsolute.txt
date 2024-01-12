@@ -40,3 +40,11 @@ C:\Users\Win10\Documents\GitHub\ERSProjekat\ERSProject\UnitTestProject\obj\Debug
 C:\Users\Win10\Documents\GitHub\ERSProjekat\ERSProject\UnitTestProject\obj\Debug\UnitTestProject.csproj.CopyComplete
 C:\Users\Win10\Documents\GitHub\ERSProjekat\ERSProject\UnitTestProject\obj\Debug\UnitTestProject.dll
 C:\Users\Win10\Documents\GitHub\ERSProjekat\ERSProject\UnitTestProject\obj\Debug\UnitTestProject.pdb
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\UnitTestProject\bin\Debug\Castle.Core.dll
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\UnitTestProject\bin\Debug\Moq.dll
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\UnitTestProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\UnitTestProject\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\UnitTestProject\bin\Debug\Castle.Core.xml
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\UnitTestProject\bin\Debug\Moq.xml
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\UnitTestProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\OneDrive\Dokumenti\GitHub\ERSProjekat\ERSProject\UnitTestProject\bin\Debug\System.Threading.Tasks.Extensions.xml

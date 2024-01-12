@@ -42,18 +42,25 @@ namespace ERSProject
 
         public bool CheckAndLogInvalidFiles(string path,string document)
         {
-            XmlDocument xmlDoc = new XmlDocument();
-            
-            xmlDoc.Load(path+"\\" + document);
+            try
+            {
+                XmlDocument xmlDoc = new XmlDocument();
 
-            if (!IsValid(xmlDoc))
+                xmlDoc.Load(path + "\\" + document);
+
+                if (!IsValid(xmlDoc))
+                {
+                    LogInvalidFile(path, document, xmlDoc);
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            }catch(Exception ex)
             {
-                LogInvalidFile(path, document, xmlDoc);
+                Console.WriteLine(ex.Message);
                 return false;
-            }
-            else
-            {
-                return true;
             }
         }
 

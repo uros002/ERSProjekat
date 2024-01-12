@@ -43,23 +43,23 @@ namespace ERSProject
             ostvXmlDoc.Load(path+"\\"+ "ostv_potrosnja.xml");
 
             // Filtrirajte podatke prema datumu i regionu
-            XmlNodeList progStavke = progXmlDoc.SelectNodes($"//Stavka[Oblast='{region}' and starts-with(DatumMerenja, '{date}')]");
+            XmlNodeList progStavke = progXmlDoc.SelectNodes($"//Stavka[Oblast='{region.ToUpper()}' and starts-with(DatumMerenja, '{date}')]");
 
             foreach (XmlNode stavka in progStavke)
             {
                 int sat = int.Parse(stavka.SelectSingleNode("Sat").InnerText);
                 int potrosnja = int.Parse(stavka.SelectSingleNode("Load").InnerText);
-                prognoziranaPotrosnjaLista.Add(new PrognoziranaPotrosnja(path, "prog_2020_05_07.xml", sat, potrosnja, region));
+                prognoziranaPotrosnjaLista.Add(new PrognoziranaPotrosnja(path, "prog_2020_05_07.xml", sat, potrosnja, region.ToUpper()));
             }
 
-            string xpathExpression = $"//Stavka[Oblast='{region}' and starts-with(DatumMerenja, '{date}')]";
+            string xpathExpression = $"//Stavka[Oblast='{region.ToUpper()}' and starts-with(DatumMerenja, '{date}')]";
             XmlNodeList ostvStavke = ostvXmlDoc.SelectNodes(xpathExpression);
 
             foreach (XmlNode stavka in ostvStavke)
             {
                 int sat = int.Parse(stavka.SelectSingleNode("Sat").InnerText);
                 int potrosnja = int.Parse(stavka.SelectSingleNode("Load").InnerText);
-                ostvarenaPotrosnjaLista.Add(new OstvarenaPotrosnja(path,"ostv_2020_05_07.xml", sat, potrosnja, region));
+                ostvarenaPotrosnjaLista.Add(new OstvarenaPotrosnja(path,"ostv_2020_05_07.xml", sat, potrosnja, region.ToUpper()));
             }
             if (prognoziranaPotrosnjaLista.Count == 0)
             {

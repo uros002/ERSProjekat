@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ERSProject.Classes
 {
-    class NeispravniPodaci
+    public class NeispravniPodaci
     {
         public string imeFajla;
         public string lokacija;
